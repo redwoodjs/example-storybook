@@ -1,0 +1,10 @@
+{
+  "name": "@redwoodjs/example-storybook",
+  "version": "1.0.0-alpha.1",
+  "description": "Example application written using Redwood that leverages Redwood's Storybook integration to highlight some of the core user interface (UI) concepts, such as the Layout, and Cells.",
+  "repository": "https://github.com/redwoodjs/example-storybook.git",
+  "license": "MIT",
+  "private": true,
+  "npmClient": "yarn",
+  "packageManager": "yarn@1.22.17"
+}

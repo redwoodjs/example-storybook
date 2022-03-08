@@ -41,9 +41,6 @@ This repositories contains example stories for `cells`, `pages`, `layouts`, and 
 - `layouts` contain HTML/components that wrap your content and are shared across Pages.
 - `pages` contain components and are optionally wrapped inside Layouts that can be thought of as the "landing page" for a given URL (e.g. a URL like `/articles/hello-world` will map to one page and `/contact-us` will map to another).
 
-_TODO_
-
-- [Layout](https://redwoodjs.com/docs/tutorial/layouts)
 ## Further Experiments
 
 - [ ] Create a Prisma model

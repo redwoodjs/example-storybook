@@ -3850,7 +3850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:^6.4.19":
+"@storybook/addon-actions@npm:6.4.19":
   version: 6.4.19
   resolution: "@storybook/addon-actions@npm:6.4.19"
   dependencies:
@@ -3884,7 +3884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-interactions@npm:^6.4.19":
+"@storybook/addon-interactions@npm:6.4.19":
   version: 6.4.19
   resolution: "@storybook/addon-interactions@npm:6.4.19"
   dependencies:
@@ -4475,7 +4475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/jest@npm:^0.0.9":
+"@storybook/jest@npm:0.0.9":
   version: 0.0.9
   resolution: "@storybook/jest@npm:0.0.9"
   dependencies:
@@ -4747,7 +4747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:^0.0.4":
+"@storybook/test-runner@npm:0.0.4":
   version: 0.0.4
   resolution: "@storybook/test-runner@npm:0.0.4"
   dependencies:
@@ -4769,7 +4769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:^0.0.9":
+"@storybook/testing-library@npm:0.0.9":
   version: 0.0.9
   resolution: "@storybook/testing-library@npm:0.0.9"
   dependencies:
@@ -15143,7 +15143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:27.5.1, jest@npm:^27.5.1":
+"jest@npm:27.5.1":
   version: 27.5.1
   resolution: "jest@npm:27.5.1"
   dependencies:
@@ -23198,12 +23198,12 @@ __metadata:
     "@redwoodjs/forms": 1.0.0-rc.6
     "@redwoodjs/router": 1.0.0-rc.6
     "@redwoodjs/web": 1.0.0-rc.6
-    "@storybook/addon-actions": ^6.4.19
-    "@storybook/addon-interactions": ^6.4.19
-    "@storybook/jest": ^0.0.9
-    "@storybook/test-runner": ^0.0.4
-    "@storybook/testing-library": ^0.0.9
-    jest: ^27.5.1
+    "@storybook/addon-actions": 6.4.19
+    "@storybook/addon-interactions": 6.4.19
+    "@storybook/jest": 0.0.9
+    "@storybook/test-runner": 0.0.4
+    "@storybook/testing-library": 0.0.9
+    jest: 27.5.1
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2

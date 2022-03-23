@@ -4475,15 +4475,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/jest@npm:0.0.9":
-  version: 0.0.9
-  resolution: "@storybook/jest@npm:0.0.9"
+"@storybook/jest@npm:0.0.10":
+  version: 0.0.10
+  resolution: "@storybook/jest@npm:0.0.10"
   dependencies:
     "@storybook/expect": storybook-jest
     "@storybook/instrumenter": ^6.4.0
     "@testing-library/jest-dom": ^5.16.2
     jest-mock: ^27.3.0
-  checksum: 155eaeb91389959608cf03808d5535163fe676807e2316a48bf6dc95b63304ffad056df1cdab5aeb80d5f6d7bd4afe61e436ef3e9f86d850da23382e68469117
+  checksum: f27be53e528adc39718654d6144328ff853bae22fd183a20ed03262ed39ce89fc57715dab91bad62ae663c36899bbb4d9dd2fbc9d5249f1f7cde52b11172e672
   languageName: node
   linkType: hard
 
@@ -23200,7 +23200,7 @@ __metadata:
     "@redwoodjs/web": 1.0.0-rc.6
     "@storybook/addon-actions": 6.4.19
     "@storybook/addon-interactions": 6.4.19
-    "@storybook/jest": 0.0.9
+    "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.0.4
     "@storybook/testing-library": 0.0.9
     jest: 27.5.1

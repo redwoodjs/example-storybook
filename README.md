@@ -75,3 +75,23 @@ yarn redwood dev
 ```
 
 Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`.
+
+```terminal
+yarn rw prisma studio
+```
+
+A new browser should open to http://localhost:5555 and now you can view and manipulate data in the database directly!
+
+
+
+---
+
+https://github.com/prisma/prisma/issues/9553
+https://github.com/redwoodjs/redwood/issues/4605
+
+CORRECT
+node_modules/.prisma
+WRONG
+api/node_modules/.prisma
+
+---

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCell Empty fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    Empty
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ArticleCell Failure fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="color: red;"
+  >
+    Error: Oh no
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ArticleCell Loading fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    Loading...
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ArticleCell Success fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <article>
+    <header>
+      <h2
+        class="text-xl text-blue-700 font-semibold"
+      >
+        <a
+          href="/article/42"
+        >
+          ArticleCell Title
+        </a>
+      </h2>
+    </header>
+    <div
+      class="mt-2 text-gray-900 font-light"
+    >
+      ArticleCell Body
+    </div>
+    <div>
+      Posted at: 2020-01-01T00:00:00.000Z
+    </div>
+  </article>
+</DocumentFragment>
+`;

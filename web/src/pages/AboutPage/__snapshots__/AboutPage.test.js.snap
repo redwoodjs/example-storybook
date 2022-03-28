@@ -4,6 +4,7 @@ exports[`AboutPage fragment matches snapshot 1`] = `
 <DocumentFragment>
   <p
     class="font-light"
+    data-testid="about-paragraph"
   >
     This site was created to demonstrate my mastery of Redwood: Look on my works, ye mighty, and despair!
   </p>

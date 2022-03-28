@@ -8,10 +8,19 @@ describe('requireAuth directive', () => {
     expect(getDirectiveName(requireAuth.schema)).toBe('requireAuth')
   })
 
-  it('requireAuth has stub implementation. Should not throw when current user', () => {
-    // If you want to set values in context, pass it through e.g.
-    // mockRedwoodDirective(requireAuth, { context: { currentUser: { id: 1, name: 'Lebron McGretzky' } }})
+  it('requireAuth should throw when current user is unauthenticated', () => {
     const mockExecution = mockRedwoodDirective(requireAuth, { context: {} })
+
+    expect(mockExecution).toThrowErrorMatchingInlineSnapshot(
+      `"You don't have permission to do that."`
+    )
+  })
+
+  it('requireAuth should not throw when current user is authenticated', () => {
+    // If you want to set values in context, pass it through e.g.
+    const mockExecution = mockRedwoodDirective(requireAuth, {
+      context: { currentUser: { id: 1, name: 'Lebron McGretzky' } },
+    })
 
     expect(mockExecution).not.toThrowError()
   })

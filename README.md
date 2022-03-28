@@ -1,5 +1,9 @@
 # example-storybook -- A Redwood-based set of Storybook examples
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84b82eb2-bec3-4324-b01b-4e079b748e6c/deploy-status)](https://app.netlify.com/sites/fascinating-cranachan-7f1f78/deploys)
+
+---
+
 <span><img src="https://avatars2.githubusercontent.com/u/45050444?v=4" width="10" />
 🌲✨📖 _A forest full of stories_ 📖✨🌲<img src="https://avatars2.githubusercontent.com/u/45050444?v=4" width="10" /></span>
 ## Description

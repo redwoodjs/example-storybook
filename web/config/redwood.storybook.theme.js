@@ -18,5 +18,5 @@ export default create({
   brandTitle: 'RedwoodJS',
   brandUrl: 'https://redwoodjs.com/',
   appBorderRadius: 16,
-  brandImage: 'diecut.svg',
+  brandImage: './diecut.svg',
 })

@@ -1,5 +1,12 @@
 import { create } from '@storybook/theming'
 
+/**
+ * FIXME: hack to get this working locally and on netlify
+ */
+const brandImagePrefix =
+  // eslint-disable-next-line no-undef
+  process.env.NODE_ENV.toLowerCase() === 'production' ? '..' : '.'
+
 export default create({
   base: 'light',
   colorPrimary: '#bf4722',
@@ -18,5 +25,5 @@ export default create({
   brandTitle: 'RedwoodJS',
   brandUrl: 'https://redwoodjs.com/',
   appBorderRadius: 16,
-  brandImage: 'diecut.svg',
+  brandImage: `${brandImagePrefix}/diecut.svg`,
 })

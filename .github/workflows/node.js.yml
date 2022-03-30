@@ -1,0 +1,61 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-20.04
+    env:
+      TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+
+    services:
+      # Label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres@sha256:1cb07b811f2ec7b7bf3c42fc3dc19c1b5e87775eee88c2b1a8793420c4de0781
+        # Provide the password for postgres
+        env:
+          POSTGRES_PASSWORD: postgres
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 5432:5432
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+    - run: yarn install --immutable
+    - run: yarn rw test && yarn workspace web test-storybook:ci
+    # order of steps is important, storybook needs to be built first as
+    # it goes into web/public/storybook which then gets built and put into
+    # web/dist
+    - run: yarn rw sb --build --no-open && yarn rw build
+    - uses: actions/upload-artifact@v3.0.0
+      with:
+        name: build-for-${{github.sha}}-node-${{matrix.node-version}}
+        path: |
+          api/dist/
+          web/dist/

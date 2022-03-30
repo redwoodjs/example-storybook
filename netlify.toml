@@ -1,5 +1,8 @@
 [build]
-command = "yarn rw deploy netlify --no-prisma --no-data-migrate && yarn rw sb --build"
+# order of steps is important, storybook needs to be built first as
+# it goes into web/public/storybook which then gets built and put into
+# web/dist
+command = "yarn rw sb --build --no-open && yarn rw deploy netlify --no-prisma --no-data-migrate"
 publish = "web/dist"
 functions = "api/dist/functions"
 

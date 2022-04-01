@@ -2,6 +2,9 @@ export const QUERY = gql`
   query CommentsQuery {
     comments {
       id
+      name
+      body
+      createdAt
     }
   }
 `

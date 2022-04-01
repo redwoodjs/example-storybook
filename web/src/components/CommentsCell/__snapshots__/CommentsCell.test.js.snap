@@ -30,13 +30,10 @@ exports[`CommentsCell Success fragment matches snapshot 1`] = `
 <DocumentFragment>
   <ul>
     <li>
-      {"id":42}
+      {"id":1,"name":"April O'Neil","body":"Cowabunga dudes. This is the first comment!","createdAt":"2022-04-01T12:34:56Z"}
     </li>
     <li>
-      {"id":43}
-    </li>
-    <li>
-      {"id":44}
+      {"id":2,"name":"Michelangelo","body":"It's 🍕 time!","createdAt":"2020-02-03T23:00:00Z"}
     </li>
   </ul>
 </DocumentFragment>

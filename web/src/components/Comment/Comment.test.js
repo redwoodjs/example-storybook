@@ -11,4 +11,9 @@ describe('Comment', () => {
       render(<Comment />)
     }).not.toThrow()
   })
+
+  it('Comment fragment matches snapshot', () => {
+    const { asFragment } = render(<Comment />)
+    expect(asFragment()).toMatchSnapshot()
+  })
 })

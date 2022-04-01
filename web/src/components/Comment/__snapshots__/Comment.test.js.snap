@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment Comment fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Comment
+    </h2>
+    <p>
+      Find me in ./web/src/components/Comment/Comment.js
+    </p>
+  </div>
+</DocumentFragment>
+`;

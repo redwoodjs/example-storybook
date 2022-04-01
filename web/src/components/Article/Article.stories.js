@@ -9,8 +9,8 @@ export default {
   },
 }
 
-export const full = () => {
-  return <Article {...standard()} />
+export const full = (ars) => {
+  return <Article {...{ ...ars, ...standard() }} />
 }
 
 export const summary = ({ summary = true }) => {

@@ -3,9 +3,9 @@ import { within } from '@storybook/testing-library'
 import { expect } from '@storybook/jest'
 import BlogLayout from './BlogLayout'
 
-export const generated = () => {
+export const generated = (args) => {
   return (
-    <BlogLayout>
+    <BlogLayout {...args}>
       <></>
     </BlogLayout>
   )

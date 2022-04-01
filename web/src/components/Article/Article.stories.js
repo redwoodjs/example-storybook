@@ -4,13 +4,10 @@ import { standard } from './Article.mock'
 /** @type { import("@storybook/react").Meta } */
 export default {
   title: 'Components/Article',
-  args: {
-    summary: true,
-  },
 }
 
-export const full = (ars) => {
-  return <Article {...{ ...ars, ...standard() }} />
+export const full = (args) => {
+  return <Article {...args} />
 }
 
 export const summary = ({ summary = true }) => {

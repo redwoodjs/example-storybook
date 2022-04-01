@@ -20,6 +20,9 @@ exports[`Article fragment matches snapshot 1`] = `
       Neutra tacos hot chicken prism raw denim, put a bird on it enamel pin post-ironic vape cred DIY. Street art next level umami squid. Hammock hexagon glossier 8-bit banjo. Neutra la croix mixtape echo park four loko semiotics kitsch forage chambray. Semiotics salvia selfies jianbing hella shaman. Letterpress helvetica vaporware cronut, shaman butcher YOLO poke fixie hoodie gentrify woke heirloom.
     </div>
     <div>
+      Loading...
+    </div>
+    <div>
       Posted at: 2022-03-30T00:00:00.000Z
     </div>
   </article>
@@ -44,6 +47,9 @@ exports[`Article fragment when summary prop set to false matches snapshot 1`] = 
       class="mt-2 text-gray-900 font-light"
     >
       Neutra tacos hot chicken prism raw denim, put a bird on it enamel pin post-ironic vape cred DIY. Street art next level umami squid. Hammock hexagon glossier 8-bit banjo. Neutra la croix mixtape echo park four loko semiotics kitsch forage chambray. Semiotics salvia selfies jianbing hella shaman. Letterpress helvetica vaporware cronut, shaman butcher YOLO poke fixie hoodie gentrify woke heirloom.
+    </div>
+    <div>
+      Loading...
     </div>
     <div>
       Posted at: 2022-03-30T00:00:00.000Z

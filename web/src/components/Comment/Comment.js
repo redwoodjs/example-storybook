@@ -1,8 +1,9 @@
-const Comment = () => {
+const Comment = ({ comment }) => {
   return (
     <div>
-      <h2>{'Comment'}</h2>
-      <p>{'Find me in ./web/src/components/Comment/Comment.js'}</p>
+      <h2>{comment.name}</h2>
+      <time dateTime={comment.createdAt}>{comment.createdAt}</time>
+      <p>{comment.body}</p>
     </div>
   )
 }

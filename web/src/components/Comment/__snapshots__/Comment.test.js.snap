@@ -4,10 +4,15 @@ exports[`Comment Comment fragment matches snapshot 1`] = `
 <DocumentFragment>
   <div>
     <h2>
-      Comment
+      April O'Neil
     </h2>
+    <time
+      datetime="2022-04-01T12:34:56Z"
+    >
+      2022-04-01T12:34:56Z
+    </time>
     <p>
-      Find me in ./web/src/components/Comment/Comment.js
+      Cowabunga dudes. This is the first comment!
     </p>
   </div>
 </DocumentFragment>

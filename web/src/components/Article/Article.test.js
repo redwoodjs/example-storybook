@@ -17,4 +17,18 @@ describe('Article', () => {
     const { asFragment } = render(<Article article={standard().article} />)
     expect(asFragment()).toMatchSnapshot()
   })
+
+  it('fragment when summary prop set to true matches snapshot', () => {
+    const { asFragment } = render(
+      <Article summary={true} article={standard().article} />
+    )
+    expect(asFragment()).toMatchSnapshot()
+  })
+
+  it('fragment when summary prop set to false matches snapshot', () => {
+    const { asFragment } = render(
+      <Article summary={false} article={standard().article} />
+    )
+    expect(asFragment()).toMatchSnapshot()
+  })
 })

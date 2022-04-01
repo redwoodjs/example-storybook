@@ -1,23 +1,18 @@
-// Define your own mock data here:
-export const standard = () => ({
-  articles: [
-    {
-      id: 42,
-      title: 'ArticlesCell Title 1',
-      body: 'ArticlesCell Body 1',
-      createdAt: '2020-01-01T00:00:00.000Z',
-    },
-    {
-      id: 43,
-      title: 'ArticlesCell Title 2',
-      body: 'ArticlesCell Body 2',
-      createdAt: '2020-01-02T00:00:00.000Z',
-    },
-    {
-      id: 44,
-      title: 'ArticlesCell Title 3',
-      body: 'ArticlesCell Body 3',
-      createdAt: '2020-01-03T00:00:00.000Z',
-    },
-  ],
-})
+export const standard = () => {
+  return {
+    articles: [
+      {
+        id: 1,
+        title: 'First Post',
+        body: `Neutra tacos hot chicken prism raw denim, put a bird on it enamel pin post-ironic vape cred DIY. Street art next level umami squid. Hammock hexagon glossier 8-bit banjo. Neutra la croix mixtape echo park four loko semiotics kitsch forage chambray. Semiotics salvia selfies jianbing hella shaman. Letterpress helvetica vaporware cronut, shaman butcher YOLO poke fixie hoodie gentrify woke heirloom.`,
+        createdAt: '2020-01-01T12:34:56Z',
+      },
+      {
+        id: 2,
+        title: 'Second Post',
+        body: `Master cleanse gentrify irony put a bird on it hexagon enamel pin. Pop-up man braid artisan pug tilde synth lo-fi. Ethical tofu portland keytar waistcoat. Pabst authentic hammock chillwave twee trust fund. Lyft humblebrag ramps irony unicorn.`,
+        createdAt: '2020-01-01T12:34:56Z',
+      },
+    ],
+  }
+}

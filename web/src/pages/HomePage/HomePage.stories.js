@@ -14,5 +14,5 @@ export const generated = Template.bind({})
 generated.play = async ({ canvasElement }) => {
   const canvas = within(canvasElement)
   const heading = await canvas.findAllByRole('heading')
-  expect(heading).toHaveLength(3)
+  expect(heading).toHaveLength(2)
 }

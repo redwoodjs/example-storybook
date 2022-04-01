@@ -2,16 +2,27 @@
 
 exports[`Comment Comment fragment matches snapshot 1`] = `
 <DocumentFragment>
-  <div>
-    <h2>
-      April O'Neil
-    </h2>
-    <time
-      datetime="2022-04-01T12:34:56Z"
+  <div
+    class="bg-gray-200 p-8 rounded-lg"
+  >
+    <header
+      class="flex justify-between"
     >
-      2022-04-01T12:34:56Z
-    </time>
-    <p>
+      <h2
+        class="font-semibold text-gray-700"
+      >
+        April O'Neil
+      </h2>
+      <time
+        class="text-xs text-gray-500"
+        datetime="2022-04-01T12:34:56Z"
+      >
+        1 April 2022
+      </time>
+    </header>
+    <p
+      class="text-sm mt-2"
+    >
       Cowabunga dudes. This is the first comment!
     </p>
   </div>

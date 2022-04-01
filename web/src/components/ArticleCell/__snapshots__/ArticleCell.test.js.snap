@@ -46,6 +46,9 @@ exports[`ArticleCell Success fragment matches snapshot 1`] = `
       ArticleCell Body
     </div>
     <div>
+      Loading...
+    </div>
+    <div>
       Posted at: 2020-01-01T00:00:00.000Z
     </div>
   </article>

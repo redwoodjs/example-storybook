@@ -7,7 +7,7 @@ export default {
 }
 
 export const full = (args) => {
-  return <Article {...args} />
+  return <Article {...standard()} {...args} />
 }
 
 export const summary = ({ summary = true }) => {

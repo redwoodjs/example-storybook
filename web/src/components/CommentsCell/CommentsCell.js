@@ -1,3 +1,4 @@
+import Comment from 'src/components/Comment'
 export const QUERY = gql`
   query CommentsQuery {
     comments {
@@ -18,11 +19,7 @@ export const Failure = ({ error }) => (
 )
 
 export const Success = ({ comments }) => {
-  return (
-    <ul>
-      {comments.map((item) => {
-        return <li key={item.id}>{JSON.stringify(item)}</li>
-      })}
-    </ul>
-  )
+  return comments.map((comment) => (
+    <Comment key={comment.id} comment={comment} />
+  ))
 }

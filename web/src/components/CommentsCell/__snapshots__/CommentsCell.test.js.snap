@@ -28,13 +28,53 @@ exports[`CommentsCell Loading fragment matches snapshot 1`] = `
 
 exports[`CommentsCell Success fragment matches snapshot 1`] = `
 <DocumentFragment>
-  <ul>
-    <li>
-      {"id":1,"name":"April O'Neil","body":"Cowabunga dudes. This is the first comment!","createdAt":"2022-04-01T12:34:56Z"}
-    </li>
-    <li>
-      {"id":2,"name":"Michelangelo","body":"It's 🍕 time!","createdAt":"2020-02-03T23:00:00Z"}
-    </li>
-  </ul>
+  <div
+    class="bg-gray-200 p-8 rounded-lg"
+  >
+    <header
+      class="flex justify-between"
+    >
+      <h2
+        class="font-semibold text-gray-700"
+      >
+        April O'Neil
+      </h2>
+      <time
+        class="text-xs text-gray-500"
+        datetime="2022-04-01T12:34:56Z"
+      >
+        1 April 2022
+      </time>
+    </header>
+    <p
+      class="text-sm mt-2"
+    >
+      Cowabunga dudes. This is the first comment!
+    </p>
+  </div>
+  <div
+    class="bg-gray-200 p-8 rounded-lg"
+  >
+    <header
+      class="flex justify-between"
+    >
+      <h2
+        class="font-semibold text-gray-700"
+      >
+        Michelangelo
+      </h2>
+      <time
+        class="text-xs text-gray-500"
+        datetime="2020-02-03T23:00:00Z"
+      >
+        3 February 2020
+      </time>
+    </header>
+    <p
+      class="text-sm mt-2"
+    >
+      It's 🍕 time!
+    </p>
+  </div>
 </DocumentFragment>
 `;

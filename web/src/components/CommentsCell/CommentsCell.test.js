@@ -15,10 +15,20 @@ describe('CommentsCell', () => {
     }).not.toThrow()
   })
 
+  it('Loading fragment matches snapshot', () => {
+    const { asFragment } = render(<Loading />)
+    expect(asFragment()).toMatchSnapshot()
+  })
+
   it('renders Empty successfully', async () => {
     expect(() => {
       render(<Empty />)
     }).not.toThrow()
+  })
+
+  it('Empty fragment matches snapshot', () => {
+    const { asFragment } = render(<Empty />)
+    expect(asFragment()).toMatchSnapshot()
   })
 
   it('renders Failure successfully', async () => {
@@ -27,6 +37,10 @@ describe('CommentsCell', () => {
     }).not.toThrow()
   })
 
+  it('Failure fragment matches snapshot', () => {
+    const { asFragment } = render(<Failure error={new Error('Oh no')} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
   // When you're ready to test the actual output of your component render
   // you could test that, for example, certain text is present:
   //
@@ -37,5 +51,10 @@ describe('CommentsCell', () => {
     expect(() => {
       render(<Success comments={standard().comments} />)
     }).not.toThrow()
+  })
+
+  it('Success fragment matches snapshot', () => {
+    const { asFragment } = render(<Success comments={standard().comments} />)
+    expect(asFragment()).toMatchSnapshot()
   })
 })

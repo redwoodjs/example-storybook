@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentsCell Empty fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    Empty
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommentsCell Failure fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="color: red;"
+  >
+    Error: Oh no
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommentsCell Loading fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    Loading...
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommentsCell Success fragment matches snapshot 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      {"id":42}
+    </li>
+    <li>
+      {"id":43}
+    </li>
+    <li>
+      {"id":44}
+    </li>
+  </ul>
+</DocumentFragment>
+`;

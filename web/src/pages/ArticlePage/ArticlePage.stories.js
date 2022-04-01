@@ -4,4 +4,10 @@ export const generated = (arg) => {
   return <ArticlePage {...arg} />
 }
 
-export default { title: 'Pages/ArticlePage' }
+export default {
+  title: 'Pages/ArticlePage',
+  component: ArticlePage,
+  args: {
+    id: 1,
+  },
+}

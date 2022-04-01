@@ -21,4 +21,9 @@ generated.play = async ({ canvasElement }) => {
   expect(homeLink).toHaveTextContent('Contact')
 }
 
-export default { title: 'Layouts/BlogLayout' }
+export default {
+  title: 'Layouts/BlogLayout',
+  parameters: {
+    layout: 'fullscreen',
+  },
+}

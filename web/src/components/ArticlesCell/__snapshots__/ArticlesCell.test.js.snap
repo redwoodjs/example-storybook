@@ -37,19 +37,19 @@ exports[`ArticlesCell Success fragment matches snapshot 1`] = `
           class="text-xl text-blue-700 font-semibold"
         >
           <a
-            href="/article/42"
+            href="/article/1"
           >
-            ArticlesCell Title 1
+            First Post
           </a>
         </h2>
       </header>
       <div
         class="mt-2 text-gray-900 font-light"
       >
-        ArticlesCell Body 1
+        Neutra tacos hot chicken prism raw denim, put a bird on it enamel pin post-ironic vape cred DIY. Str...
       </div>
       <div>
-        Posted at: 2020-01-01T00:00:00.000Z
+        Posted at: 2020-01-01T12:34:56Z
       </div>
     </article>
     <article>
@@ -58,40 +58,19 @@ exports[`ArticlesCell Success fragment matches snapshot 1`] = `
           class="text-xl text-blue-700 font-semibold"
         >
           <a
-            href="/article/43"
+            href="/article/2"
           >
-            ArticlesCell Title 2
+            Second Post
           </a>
         </h2>
       </header>
       <div
         class="mt-2 text-gray-900 font-light"
       >
-        ArticlesCell Body 2
+        Master cleanse gentrify irony put a bird on it hexagon enamel pin. Pop-up man braid artisan pug tild...
       </div>
       <div>
-        Posted at: 2020-01-02T00:00:00.000Z
-      </div>
-    </article>
-    <article>
-      <header>
-        <h2
-          class="text-xl text-blue-700 font-semibold"
-        >
-          <a
-            href="/article/44"
-          >
-            ArticlesCell Title 3
-          </a>
-        </h2>
-      </header>
-      <div
-        class="mt-2 text-gray-900 font-light"
-      >
-        ArticlesCell Body 3
-      </div>
-      <div>
-        Posted at: 2020-01-03T00:00:00.000Z
+        Posted at: 2020-01-01T12:34:56Z
       </div>
     </article>
   </div>

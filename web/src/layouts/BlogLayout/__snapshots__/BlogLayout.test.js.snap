@@ -2,6 +2,9 @@
 
 exports[`BlogLayout fragment matches snapshot 1`] = `
 <DocumentFragment>
+  <div
+    style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+  />
   <header
     class="relative flex justify-between items-center py-4 px-8 bg-blue-700 text-white"
   >

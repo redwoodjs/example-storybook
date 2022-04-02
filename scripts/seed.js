@@ -29,28 +29,33 @@ export default async () => {
 
       console.log(`  Seeded "${post.title}"`)
     }
-
+    // TODO: provide way for user to add their hashed password/salt
     // create an admin user
-    // await db.user.upsert({
-    //   where: { id: 1 },
-    //   create: {
-    //     id: 1,
-    //     email: 'admin@admin.com',
-    //     hashedPassword:
-    //       'ad9563042fe9f154419361eeeb775d8a12f3975a3722953fd8e326dd108d5645',
-    //     salt: '1c99de412b219e9abf4665293211adce',
-    //   },
-    //   update: {},
-    // })
-
-    // console.info('')
-    // console.info('  Seeded admin user:')
-    // console.info('')
-    // console.info('    Email: admin@admin.com')
-    // console.info('    Password: admin')
-    // console.info('')
-    // console.info(`  (Please don't use this login in a production environment)`)
-    // console.info('')
+    await db.user.upsert({
+      where: { id: 1 },
+      create: {
+        id: 1,
+        email: 'admin@admin.com',
+        hashedPassword:
+          '8bfb40af37a60874fd038eb3ffb16882ce93f5d84c42534d5dc4d24b1c9bcd39',
+        salt: '18def4c24d52742cb16f2d18312883c6',
+        roles: 'admin',
+      },
+      update: {},
+    })
+    // create a moderator user
+    await db.user.upsert({
+      where: { id: 2 },
+      create: {
+        id: 2,
+        email: 'moderator@moderator.com',
+        hashedPassword:
+          '2fbc110bd445dbb4f588c67c7a88f324444fd84716af3ad35ced0b0ebeef4e47',
+        salt: 'f0a8a4a7ccbe92563bffa4ca5fc40c3f',
+        roles: 'moderator',
+      },
+      update: {},
+    })
   } catch (error) {
     console.warn('Please define your seed data.')
     console.error(error)

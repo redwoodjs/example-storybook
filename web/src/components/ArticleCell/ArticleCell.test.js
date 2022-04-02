@@ -1,4 +1,4 @@
-import { render } from '@redwoodjs/testing/web'
+import { screen, render, waitFor } from '@redwoodjs/testing/web'
 import { Loading, Empty, Failure, Success } from './ArticleCell'
 import { standard } from './ArticleCell.mock'
 
@@ -54,8 +54,18 @@ describe('ArticleCell', () => {
     }).not.toThrow()
   })
 
-  it('Success fragment matches snapshot', () => {
+  it('Success fragment with loading comments matches snapshot', () => {
     const { asFragment } = render(<Success article={standard().article} />)
     expect(asFragment()).toMatchSnapshot()
+  })
+
+  it('Success fragment matches snapshot', async () => {
+    const { asFragment } = render(<Success article={standard().article} />)
+    await waitFor(() => {
+      expect(
+        screen.getByText('Cowabunga dudes. This is the first comment!')
+      ).toBeInTheDocument()
+      expect(asFragment()).toMatchSnapshot()
+    })
   })
 })

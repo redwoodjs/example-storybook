@@ -1,4 +1,4 @@
-import { render } from '@redwoodjs/testing/web'
+import { render, screen } from '@redwoodjs/testing/web'
 import { Loading, Empty, Failure, Success } from './ArticlesCell'
 import { standard } from './ArticlesCell.mock'
 
@@ -55,7 +55,21 @@ describe('ArticlesCell', () => {
   })
 
   it('Success fragment matches snapshot', () => {
-    const { asFragment } = render(<Success articles={standard().articles} />)
+    const { asFragment } = render(
+      <Success articles={standard().articles} summary />
+    )
     expect(asFragment()).toMatchSnapshot()
+  })
+
+  test('Success renders mocked test data successfully', async () => {
+    const articles = standard().articles
+    render(<Success articles={articles} summary />)
+
+    expect(screen.getByText(articles[0].title)).toBeInTheDocument()
+    expect(
+      screen.getByText(
+        'Neutra tacos hot chicken prism raw denim, put a bird on it enamel pin post-ironic vape cred DIY. Str...'
+      )
+    ).toBeInTheDocument()
   })
 })

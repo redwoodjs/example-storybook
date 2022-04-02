@@ -2,8 +2,10 @@
 
 exports[`CommentsCell Empty fragment matches snapshot 1`] = `
 <DocumentFragment>
-  <div>
-    Empty
+  <div
+    class="text-center text-gray-500"
+  >
+    No comments yet
   </div>
 </DocumentFragment>
 `;

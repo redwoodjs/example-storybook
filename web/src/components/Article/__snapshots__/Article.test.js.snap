@@ -23,7 +23,54 @@ exports[`Article fragment matches snapshot 1`] = `
       class="mt-12"
     >
       <div>
-        Loading...
+        <h3
+          class="font-light text-lg text-gray-600"
+        >
+          Leave a Comment
+        </h3>
+        <form
+          class="mt-4 w-full"
+        >
+          <label
+            class="block text-xs font-semibold text-gray-500 uppercase"
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            class="block w-full p-1 border rounded text-sm "
+            data-testid="name"
+            id="name"
+            name="name"
+            type="text"
+          />
+          <label
+            class="block mt-4 text-xs font-semibold text-gray-500 uppercase"
+            for="body"
+          >
+            Comment
+          </label>
+          <textarea
+            class="block w-full p-1 border rounded h-24 text-sm"
+            data-testid="body"
+            id="body"
+            name="body"
+          />
+          <button
+            class="block mt-4 bg-blue-500 text-white text-xs font-semibold uppercase tracking-wide rounded px-3 py-2 disabled:opacity-50"
+            data-testid="submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+      <div
+        class="mt-12"
+      >
+        <div>
+          Loading...
+        </div>
       </div>
     </div>
     <div>
@@ -55,56 +102,103 @@ exports[`Article fragment when summary prop set to false and async/await matches
     <div
       class="mt-12"
     >
+      <div>
+        <h3
+          class="font-light text-lg text-gray-600"
+        >
+          Leave a Comment
+        </h3>
+        <form
+          class="mt-4 w-full"
+        >
+          <label
+            class="block text-xs font-semibold text-gray-500 uppercase"
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            class="block w-full p-1 border rounded text-sm "
+            data-testid="name"
+            id="name"
+            name="name"
+            type="text"
+          />
+          <label
+            class="block mt-4 text-xs font-semibold text-gray-500 uppercase"
+            for="body"
+          >
+            Comment
+          </label>
+          <textarea
+            class="block w-full p-1 border rounded h-24 text-sm"
+            data-testid="body"
+            id="body"
+            name="body"
+          />
+          <button
+            class="block mt-4 bg-blue-500 text-white text-xs font-semibold uppercase tracking-wide rounded px-3 py-2 disabled:opacity-50"
+            data-testid="submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
       <div
-        class="space-y-8"
+        class="mt-12"
       >
         <div
-          class="bg-gray-200 p-8 rounded-lg"
+          class="space-y-8"
         >
-          <header
-            class="flex justify-between"
+          <div
+            class="bg-gray-200 p-8 rounded-lg"
           >
-            <h2
-              class="font-semibold text-gray-700"
+            <header
+              class="flex justify-between"
             >
-              April O'Neil
-            </h2>
-            <time
-              class="text-xs text-gray-500"
-              datetime="2022-04-01T12:34:56Z"
+              <h2
+                class="font-semibold text-gray-700"
+              >
+                April O'Neil
+              </h2>
+              <time
+                class="text-xs text-gray-500"
+                datetime="2022-04-01T12:34:56Z"
+              >
+                1 April 2022
+              </time>
+            </header>
+            <p
+              class="text-sm mt-2"
             >
-              1 April 2022
-            </time>
-          </header>
-          <p
-            class="text-sm mt-2"
+              Cowabunga dudes. This is the first comment!
+            </p>
+          </div>
+          <div
+            class="bg-gray-200 p-8 rounded-lg"
           >
-            Cowabunga dudes. This is the first comment!
-          </p>
-        </div>
-        <div
-          class="bg-gray-200 p-8 rounded-lg"
-        >
-          <header
-            class="flex justify-between"
-          >
-            <h2
-              class="font-semibold text-gray-700"
+            <header
+              class="flex justify-between"
             >
-              Michelangelo
-            </h2>
-            <time
-              class="text-xs text-gray-500"
-              datetime="2020-02-03T23:00:00Z"
+              <h2
+                class="font-semibold text-gray-700"
+              >
+                Michelangelo
+              </h2>
+              <time
+                class="text-xs text-gray-500"
+                datetime="2020-02-03T23:00:00Z"
+              >
+                3 February 2020
+              </time>
+            </header>
+            <p
+              class="text-sm mt-2"
             >
-              3 February 2020
-            </time>
-          </header>
-          <p
-            class="text-sm mt-2"
-          >
-            It's 🍕 time!
-          </p>
+              It's 🍕 time!
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -138,7 +232,54 @@ exports[`Article fragment when summary prop set to false matches snapshot 1`] = 
       class="mt-12"
     >
       <div>
-        Loading...
+        <h3
+          class="font-light text-lg text-gray-600"
+        >
+          Leave a Comment
+        </h3>
+        <form
+          class="mt-4 w-full"
+        >
+          <label
+            class="block text-xs font-semibold text-gray-500 uppercase"
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            class="block w-full p-1 border rounded text-sm "
+            data-testid="name"
+            id="name"
+            name="name"
+            type="text"
+          />
+          <label
+            class="block mt-4 text-xs font-semibold text-gray-500 uppercase"
+            for="body"
+          >
+            Comment
+          </label>
+          <textarea
+            class="block w-full p-1 border rounded h-24 text-sm"
+            data-testid="body"
+            id="body"
+            name="body"
+          />
+          <button
+            class="block mt-4 bg-blue-500 text-white text-xs font-semibold uppercase tracking-wide rounded px-3 py-2 disabled:opacity-50"
+            data-testid="submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+      <div
+        class="mt-12"
+      >
+        <div>
+          Loading...
+        </div>
       </div>
     </div>
     <div>

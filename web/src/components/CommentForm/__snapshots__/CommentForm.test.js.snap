@@ -12,25 +12,25 @@ exports[`CommentForm Comment fragment matches snapshot 1`] = `
       class="mt-4 w-full"
     >
       <label
-        class="block text-sm text-gray-600 uppercase"
+        class="block text-xs font-semibold text-gray-500 uppercase"
         for="name"
       >
         Name
       </label>
       <input
-        class="block w-full p-1 border rounded text-xs "
+        class="block w-full p-1 border rounded text-sm "
         id="name"
         name="name"
         type="text"
       />
       <label
-        class="block mt-4 text-sm text-gray-600 uppercase"
+        class="block mt-4 text-xs font-semibold text-gray-500 uppercase"
         for="body"
       >
         Comment
       </label>
       <textarea
-        class="block w-full p-1 border rounded h-24 text-xs"
+        class="block w-full p-1 border rounded h-24 text-sm"
         id="body"
         name="body"
       />

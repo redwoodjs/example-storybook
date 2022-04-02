@@ -2,7 +2,9 @@
 
 exports[`CommentForm Comment fragment matches snapshot 1`] = `
 <DocumentFragment>
-  <div>
+  <div
+    class=""
+  >
     <h3
       class="font-light text-lg text-gray-600"
     >

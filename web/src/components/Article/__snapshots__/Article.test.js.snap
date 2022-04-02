@@ -22,7 +22,9 @@ exports[`Article fragment matches snapshot 1`] = `
     <div
       class="mt-12"
     >
-      <div>
+      <div
+        class=""
+      >
         <h3
           class="font-light text-lg text-gray-600"
         >
@@ -102,7 +104,9 @@ exports[`Article fragment when summary prop set to false and async/await matches
     <div
       class="mt-12"
     >
-      <div>
+      <div
+        class=""
+      >
         <h3
           class="font-light text-lg text-gray-600"
         >
@@ -231,7 +235,9 @@ exports[`Article fragment when summary prop set to false matches snapshot 1`] = 
     <div
       class="mt-12"
     >
-      <div>
+      <div
+        class=""
+      >
         <h3
           class="font-light text-lg text-gray-600"
         >

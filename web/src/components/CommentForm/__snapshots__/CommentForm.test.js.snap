@@ -3,12 +3,44 @@
 exports[`CommentForm Comment fragment matches snapshot 1`] = `
 <DocumentFragment>
   <div>
-    <h2>
-      CommentForm
-    </h2>
-    <p>
-      Find me in ./web/src/components/CommentForm/CommentForm.js
-    </p>
+    <h3
+      class="font-light text-lg text-gray-600"
+    >
+      Leave a Comment
+    </h3>
+    <form
+      class="mt-4 w-full"
+    >
+      <label
+        class="block text-sm text-gray-600 uppercase"
+        for="name"
+      >
+        Name
+      </label>
+      <input
+        class="block w-full p-1 border rounded text-xs "
+        id="name"
+        name="name"
+        type="text"
+      />
+      <label
+        class="block mt-4 text-sm text-gray-600 uppercase"
+        for="body"
+      >
+        Comment
+      </label>
+      <textarea
+        class="block w-full p-1 border rounded h-24 text-xs"
+        id="body"
+        name="body"
+      />
+      <button
+        class="block mt-4 bg-blue-500 text-white text-xs font-semibold uppercase tracking-wide rounded px-3 py-2 disabled:opacity-50"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;

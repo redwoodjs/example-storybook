@@ -17,6 +17,8 @@ generated.play = async ({ canvasElement }) => {
   expect(heading).toHaveTextContent('Redwood Blog')
   const aboutLink = await canvas.findByRole('link', { name: 'About' })
   expect(aboutLink).toHaveTextContent('About')
+  const homeLink = await canvas.findByRole('link', { name: 'Contact' })
+  expect(homeLink).toHaveTextContent('Contact')
 }
 
 export default {

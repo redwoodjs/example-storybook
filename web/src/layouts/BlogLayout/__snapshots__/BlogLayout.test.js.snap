@@ -27,6 +27,22 @@ exports[`BlogLayout fragment matches snapshot 1`] = `
             About
           </a>
         </li>
+        <li>
+          <a
+            class="py-2 px-4 hover:bg-blue-600 transition duration-100 rounded"
+            href="/contact"
+          >
+            Contact
+          </a>
+        </li>
+        <li>
+          <a
+            class="py-2 px-4"
+            href="/login"
+          >
+            Login
+          </a>
+        </li>
       </ul>
     </nav>
   </header>

@@ -19,7 +19,7 @@ const Article = ({ article, summary = false }) => {
       </div>
       {!summary && (
         <div className="mt-12">
-          <CommentForm />
+          <CommentForm postId={article.id} />
           <div className="mt-12">
             <CommentsCell />
           </div>

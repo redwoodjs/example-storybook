@@ -3,7 +3,7 @@
 exports[`Comment Comment fragment matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="bg-gray-200 p-8 rounded-lg"
+    class="bg-gray-200 p-8 rounded-lg relative"
   >
     <header
       class="flex justify-between"
@@ -25,6 +25,41 @@ exports[`Comment Comment fragment matches snapshot 1`] = `
     >
       Cowabunga dudes. This is the first comment!
     </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Comment Comment fragment matches snapshot when logged in as moderator 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-gray-200 p-8 rounded-lg relative"
+  >
+    <header
+      class="flex justify-between"
+    >
+      <h2
+        class="font-semibold text-gray-700"
+      >
+        April O'Neil
+      </h2>
+      <time
+        class="text-xs text-gray-500"
+        datetime="2022-04-01T12:34:56Z"
+      >
+        1 April 2022
+      </time>
+    </header>
+    <p
+      class="text-sm mt-2"
+    >
+      Cowabunga dudes. This is the first comment!
+    </p>
+    <button
+      class="absolute bottom-2 right-2 bg-red-500 text-xs rounded text-white px-2 py-1"
+      type="button"
+    >
+      Delete
+    </button>
   </div>
 </DocumentFragment>
 `;

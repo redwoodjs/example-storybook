@@ -1,4 +1,4 @@
-import { render } from '@redwoodjs/testing/web'
+import { render, screen, waitFor } from '@redwoodjs/testing'
 
 import Comment from './Comment'
 import { standard } from './Comment.mock'
@@ -16,5 +16,16 @@ describe('Comment', () => {
   it('Comment fragment matches snapshot', () => {
     const { asFragment } = render(<Comment {...standard()} />)
     expect(asFragment()).toMatchSnapshot()
+  })
+  it('Comment fragment matches snapshot when logged in as moderator', async () => {
+    mockCurrentUser({
+      roles: 'moderator',
+    })
+    const { asFragment } = render(<Comment {...standard()} />)
+
+    await waitFor(() => {
+      expect(screen.getByText('Delete')).toBeInTheDocument()
+      expect(asFragment()).toMatchSnapshot()
+    })
   })
 })

@@ -100,7 +100,7 @@ exports[`ArticleCell Success fragment matches snapshot 1`] = `
           class="space-y-8"
         >
           <div
-            class="bg-gray-200 p-8 rounded-lg"
+            class="bg-gray-200 p-8 rounded-lg relative"
           >
             <header
               class="flex justify-between"
@@ -124,7 +124,7 @@ exports[`ArticleCell Success fragment matches snapshot 1`] = `
             </p>
           </div>
           <div
-            class="bg-gray-200 p-8 rounded-lg"
+            class="bg-gray-200 p-8 rounded-lg relative"
           >
             <header
               class="flex justify-between"

@@ -156,7 +156,7 @@ exports[`Article fragment when summary prop set to false and async/await matches
           class="space-y-8"
         >
           <div
-            class="bg-gray-200 p-8 rounded-lg"
+            class="bg-gray-200 p-8 rounded-lg relative"
           >
             <header
               class="flex justify-between"
@@ -180,7 +180,7 @@ exports[`Article fragment when summary prop set to false and async/await matches
             </p>
           </div>
           <div
-            class="bg-gray-200 p-8 rounded-lg"
+            class="bg-gray-200 p-8 rounded-lg relative"
           >
             <header
               class="flex justify-between"

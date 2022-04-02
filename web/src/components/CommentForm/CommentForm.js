@@ -45,6 +45,7 @@ const CommentForm = () => {
           name="name"
           className="block w-full p-1 border rounded text-sm "
           validation={{ required: true }}
+          data-testid="name"
         />
 
         <Label
@@ -57,11 +58,13 @@ const CommentForm = () => {
           name="body"
           className="block w-full p-1 border rounded h-24 text-sm"
           validation={{ required: true }}
+          data-testid="body"
         />
 
         <Submit
           disabled={loading}
           className="block mt-4 bg-blue-500 text-white text-xs font-semibold uppercase tracking-wide rounded px-3 py-2 disabled:opacity-50"
+          data-testid="submit"
         >
           Submit
         </Submit>

@@ -35,30 +35,20 @@ describe('comments', () => {
     expect(comment.postId).toEqual(scenario.post.bark.id)
     expect(comment.createdAt).not.toEqual(null)
   })
+  scenario(
+    'allows admins and moderators to delete a comment',
+    async (scenario) => {
+      mockCurrentUser({ roles: ['admin', 'moderator'] })
 
-  scenario('allows an admin to delete a comment', async (scenario) => {
-    mockCurrentUser({ roles: ['admin'] })
+      const comment = await deleteComment({
+        id: scenario.comment.jane.id,
+      })
+      expect(comment.id).toEqual(scenario.comment.jane.id)
 
-    const comment = await deleteComment({
-      id: scenario.comment.jane.id,
-    })
-    expect(comment.id).toEqual(scenario.comment.jane.id)
-
-    const result = await comments({ postId: scenario.comment.jane.id })
-    expect(result.length).toEqual(0)
-  })
-
-  scenario('allows a moderator to delete a comment', async (scenario) => {
-    mockCurrentUser({ roles: ['moderator'] })
-
-    const comment = await deleteComment({
-      id: scenario.comment.jane.id,
-    })
-    expect(comment.id).toEqual(scenario.comment.jane.id)
-
-    const result = await comments({ postId: scenario.comment.jane.id })
-    expect(result.length).toEqual(0)
-  })
+      const result = await comments({ postId: scenario.comment.jane.id })
+      expect(result.length).toEqual(0)
+    }
+  )
 
   scenario(
     'does not allow a non-moderator to delete a comment',

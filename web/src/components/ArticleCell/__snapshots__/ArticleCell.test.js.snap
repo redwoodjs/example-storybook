@@ -45,8 +45,12 @@ exports[`ArticleCell Success fragment matches snapshot 1`] = `
     >
       ArticleCell Body
     </div>
-    <div>
-      Loading...
+    <div
+      class="mt-12"
+    >
+      <div>
+        Loading...
+      </div>
     </div>
     <div>
       Posted at: 2020-01-01T00:00:00.000Z

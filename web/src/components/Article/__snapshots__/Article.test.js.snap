@@ -29,6 +29,84 @@ exports[`Article fragment matches snapshot 1`] = `
 </DocumentFragment>
 `;
 
+exports[`Article fragment when summary prop set to false and async/await matches snapshot 1`] = `
+<DocumentFragment>
+  <article>
+    <header>
+      <h2
+        class="text-xl text-blue-700 font-semibold"
+      >
+        <a
+          href="/article/1"
+        >
+          First Post
+        </a>
+      </h2>
+    </header>
+    <div
+      class="mt-2 text-gray-900 font-light"
+    >
+      Neutra tacos hot chicken prism raw denim, put a bird on it enamel pin post-ironic vape cred DIY. Street art next level umami squid. Hammock hexagon glossier 8-bit banjo. Neutra la croix mixtape echo park four loko semiotics kitsch forage chambray. Semiotics salvia selfies jianbing hella shaman. Letterpress helvetica vaporware cronut, shaman butcher YOLO poke fixie hoodie gentrify woke heirloom.
+    </div>
+    <div
+      class="space-y-8"
+    >
+      <div
+        class="bg-gray-200 p-8 rounded-lg"
+      >
+        <header
+          class="flex justify-between"
+        >
+          <h2
+            class="font-semibold text-gray-700"
+          >
+            April O'Neil
+          </h2>
+          <time
+            class="text-xs text-gray-500"
+            datetime="2022-04-01T12:34:56Z"
+          >
+            1 April 2022
+          </time>
+        </header>
+        <p
+          class="text-sm mt-2"
+        >
+          Cowabunga dudes. This is the first comment!
+        </p>
+      </div>
+      <div
+        class="bg-gray-200 p-8 rounded-lg"
+      >
+        <header
+          class="flex justify-between"
+        >
+          <h2
+            class="font-semibold text-gray-700"
+          >
+            Michelangelo
+          </h2>
+          <time
+            class="text-xs text-gray-500"
+            datetime="2020-02-03T23:00:00Z"
+          >
+            3 February 2020
+          </time>
+        </header>
+        <p
+          class="text-sm mt-2"
+        >
+          It's 🍕 time!
+        </p>
+      </div>
+    </div>
+    <div>
+      Posted at: 2022-03-30T00:00:00.000Z
+    </div>
+  </article>
+</DocumentFragment>
+`;
+
 exports[`Article fragment when summary prop set to false matches snapshot 1`] = `
 <DocumentFragment>
   <article>

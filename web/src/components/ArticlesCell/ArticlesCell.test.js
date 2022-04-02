@@ -55,13 +55,15 @@ describe('ArticlesCell', () => {
   })
 
   it('Success fragment matches snapshot', () => {
-    const { asFragment } = render(<Success articles={standard().articles} />)
+    const { asFragment } = render(
+      <Success articles={standard().articles} summary />
+    )
     expect(asFragment()).toMatchSnapshot()
   })
 
   test('Success renders mocked test data successfully', async () => {
     const articles = standard().articles
-    render(<Success articles={articles} />)
+    render(<Success articles={articles} summary />)
 
     expect(screen.getByText(articles[0].title)).toBeInTheDocument()
     expect(

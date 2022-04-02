@@ -54,6 +54,11 @@ describe('ArticleCell', () => {
     }).not.toThrow()
   })
 
+  it('Success fragment with loading comments matches snapshot', () => {
+    const { asFragment } = render(<Success article={standard().article} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
+
   it('Success fragment matches snapshot', async () => {
     const { asFragment } = render(<Success article={standard().article} />)
     await waitFor(() => {

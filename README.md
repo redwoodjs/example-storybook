@@ -52,19 +52,13 @@ This repositories contains example stories for `cells`, `pages`, `layouts`, and 
 - [ ] Run development server (`yarn redwood dev`) to compare dynamic, full-stack site with SB mocks
 
 ---
-# Redwood generated boilerplate readme
 
-> **NOTICE:** RedwoodJS is very close to a stable version 1.0. In the last two years,
-> the project has matured significantly and is already used in production by a number
-> of startups. We intend to have a 1.0 release candidate before the end of 2021 and
-> to release a truly production-ready 1.0 in early 2022.
-
-## Getting Started
+## More "Getting Started" Resources
 - [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
 - [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
 - [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
 
-### Setup
+### Useful individual command line snippets
 
 We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
 
@@ -80,24 +74,12 @@ yarn redwood dev
 
 Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`.
 
+### Prisma Studio
+
+Redwood comes bundled with [a lightweight wrapper around the Prisma CLI](https://redwoodjs.com/docs/cli-commands#prisma), which includes [Prisma Studio](https://www.prisma.io/studio), a tool for managing your database.
+
 ```terminal
 yarn rw prisma studio
 ```
 
 A new browser should open to http://localhost:5555 and now you can view and manipulate data in the database directly!
-
-
-
----
-
-https://github.com/prisma/prisma/issues/9553
-https://github.com/redwoodjs/redwood/issues/4605
-
-CORRECT
-node_modules/.prisma
-WRONG
-api/node_modules/.prisma
-
----
-
-TODO see about test not picking up transitive dependencies, e.g. ArticleCell -> Article -> CommentForm

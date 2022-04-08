@@ -4924,7 +4924,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core-common@npm:6.4.20":
+"@storybook/core-common@npm:6.4.20, @storybook/core-common@npm:^6.4.14":
   version: 6.4.20
   resolution: "@storybook/core-common@npm:6.4.20"
   dependencies:
@@ -5477,7 +5477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/store@npm:6.4.20":
+"@storybook/store@npm:6.4.20, @storybook/store@npm:^6.4.14":
   version: 6.4.20
   resolution: "@storybook/store@npm:6.4.20"
   dependencies:
@@ -5503,12 +5503,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.0.4":
-  version: 0.0.4
-  resolution: "@storybook/test-runner@npm:0.0.4"
+"@storybook/test-runner@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@storybook/test-runner@npm:0.0.5"
   dependencies:
+    "@storybook/core-common": ^6.4.14
     "@storybook/csf": 0.0.2--canary.87bc651.0
     "@storybook/csf-tools": ^6.4.14
+    "@storybook/store": ^6.4.14
     commander: ^9.0.0
     global: ^4.4.0
     is-localhost-ip: ^1.4.0
@@ -5517,11 +5519,12 @@ __metadata:
     node-fetch: ^2
     playwright: ^1.14.0
     tempy: ^1.0.1
+    ts-dedent: ^2.0.0
   peerDependencies:
     jest: ">=26.6.3"
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: b0096a108a8637d9f5df0163779a9a82b906e1b398f13dea0d4d7b4ea87f84f1032dcceaa0cc61cc6c5d891a3784367bf9b824420d84f3836eb8a4a967c75f0d
+  checksum: ed17cd0ed147d4007e8e1fd652409ead994b3b8a09940e4450c58b10aeec60fbe64060d7a139ae3ea6ff83ebd1fa7801855719630517716f3d384067ebfe97ff
   languageName: node
   linkType: hard
 
@@ -24698,7 +24701,7 @@ __metadata:
     "@storybook/addon-essentials": 6.4.20
     "@storybook/addon-interactions": 6.4.20
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.0.4
+    "@storybook/test-runner": 0.0.5
     "@storybook/testing-library": 0.0.9
     autoprefixer: 10.4.4
     jest: 27.5.1

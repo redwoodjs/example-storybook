@@ -1,17 +1,30 @@
 diff --git a/config/storybook/main.js b/config/storybook/main.js
-index bc381eee10cc122e74d999b616784f228388d53a..55c9ed2416d4eacd0b4f7644a32d21166e115f88 100644
+index bc381eee10cc122e74d999b616784f228388d53a..45747dc6dbef05d24faa01cc9c9ad08b3658f9d9 100644
 --- a/config/storybook/main.js
 +++ b/config/storybook/main.js
-@@ -133,9 +133,9 @@ const baseConfig = {
+@@ -57,14 +57,8 @@ const baseConfig = {
+ 
      return sbConfig
    },
-   // only set staticDirs when running Storybook process; will fail if set for SB --build
--  ...(process.env.NODE_ENV !== 'production' && {
--    staticDirs: [`${staticAssetsFolder}`],
--  }),
-+  // ...(process.env.NODE_ENV !== 'production' && {
-+  //   staticDirs: [`${staticAssetsFolder}`],
-+  // }),
- }
+-  webpackFinal: (sbConfig, { configType }) => {
+-    // configType is 'PRODUCTION' or 'DEVELOPMENT', why shout?
+-    const isEnvProduction =
+-      configType && configType.toLowerCase() === 'production'
+-
+-    const rwConfig = isEnvProduction
+-      ? require('@redwoodjs/core/config/webpack.production')
+-      : require('@redwoodjs/core/config/webpack.development')
++  webpackFinal: (sbConfig) => {
++    const rwConfig = require('@redwoodjs/core/config/webpack.production')
  
- const mergeUserStorybookConfig = (baseConfig) => {
+     // We replace imports to "@redwoodjs/router" with our own implementation in "@redwoodjs/testing"
+     sbConfig.resolve.alias['@redwoodjs/router$'] = require.resolve(
+@@ -109,7 +103,7 @@ const baseConfig = {
+     // ** PLUGINS **
+     sbConfig.plugins = [
+       ...sbConfig.plugins,
+-      ...getSharedPlugins(isEnvProduction),
++      ...getSharedPlugins(true),
+     ]
+ 
+     // ** LOADERS **

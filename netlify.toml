@@ -3,8 +3,8 @@
 # it goes into web/public/storybook which then gets built and put into
 # web/dist
 command = "yarn rw sb --build --no-open"
-publish = "web/dist"
-functions = "api/dist/functions"
+publish = "web/public/storybook"
+# functions = "api/dist/functions"
 
 [dev]
   # To use [Netlify Dev](https://www.netlify.com/products/dev/),
@@ -18,13 +18,13 @@ functions = "api/dist/functions"
   # Point your browser to this port to access your RedwoodJS app
   port = 8888
 
-[[redirects]]
-  from = "/storybook"
-  to = "/storybook"
-  status = 200
+# [[redirects]]
+#   from = "/storybook"
+#   to = "/storybook"
+#   status = 200
 
-[[redirects]]
-  from = "/*"
-  to = "/200.html"
-  status = 200
+# [[redirects]]
+#   from = "/*"
+#   to = "/200.html"
+#   status = 200
 

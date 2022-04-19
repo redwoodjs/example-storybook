@@ -1,8 +1,21 @@
 diff --git a/config/storybook/main.js b/config/storybook/main.js
-index bc381eee10cc122e74d999b616784f228388d53a..45747dc6dbef05d24faa01cc9c9ad08b3658f9d9 100644
+index bc381eee10cc122e74d999b616784f228388d53a..26191b6e5d70bd5ae14822e61794d61874329534 100644
 --- a/config/storybook/main.js
 +++ b/config/storybook/main.js
-@@ -57,14 +57,8 @@ const baseConfig = {
+@@ -1,3 +1,4 @@
++//@ts-check
+ const fs = require('fs')
+ const path = require('path')
+ 
+@@ -14,7 +15,6 @@ const config = getConfig()
+ 
+ const rwjsPaths = getPaths()
+ 
+-const staticAssetsFolder = path.join(getPaths().web.base, 'public')
+ 
+ function isPackageInstalled(alias) {
+   try {
+@@ -57,10 +57,9 @@ const baseConfig = {
  
      return sbConfig
    },
@@ -10,21 +23,22 @@ index bc381eee10cc122e74d999b616784f228388d53a..45747dc6dbef05d24faa01cc9c9ad08b
 -    // configType is 'PRODUCTION' or 'DEVELOPMENT', why shout?
 -    const isEnvProduction =
 -      configType && configType.toLowerCase() === 'production'
--
--    const rwConfig = isEnvProduction
--      ? require('@redwoodjs/core/config/webpack.production')
--      : require('@redwoodjs/core/config/webpack.development')
 +  webpackFinal: (sbConfig) => {
-+    const rwConfig = require('@redwoodjs/core/config/webpack.production')
++    // hardcoding `isEnvProduction = true` hack to get building on netlify to work
++    const isEnvProduction = true
  
-     // We replace imports to "@redwoodjs/router" with our own implementation in "@redwoodjs/testing"
-     sbConfig.resolve.alias['@redwoodjs/router$'] = require.resolve(
-@@ -109,7 +103,7 @@ const baseConfig = {
-     // ** PLUGINS **
-     sbConfig.plugins = [
-       ...sbConfig.plugins,
--      ...getSharedPlugins(isEnvProduction),
-+      ...getSharedPlugins(true),
-     ]
+     const rwConfig = isEnvProduction
+       ? require('@redwoodjs/core/config/webpack.production')
+@@ -131,11 +130,7 @@ const baseConfig = {
+     sbConfig = withEmotionVersionFallback(sbConfig)
  
-     // ** LOADERS **
+     return sbConfig
+-  },
+-  // only set staticDirs when running Storybook process; will fail if set for SB --build
+-  ...(process.env.NODE_ENV !== 'production' && {
+-    staticDirs: [`${staticAssetsFolder}`],
+-  }),
++  }
+ }
+ 
+ const mergeUserStorybookConfig = (baseConfig) => {

@@ -3,7 +3,7 @@
 # it goes into web/public/storybook which then gets built and put into
 # web/dist
 command = "yarn rw sb --build --no-open"
-publish = "web/public/storybook"
+publish = "web/public"
 # functions = "api/dist/functions"
 
 [build.environment]
@@ -21,10 +21,10 @@ publish = "web/public/storybook"
   # Point your browser to this port to access your RedwoodJS app
   port = 8888
 
-# [[redirects]]
-#   from = "/storybook"
-#   to = "/storybook"
-#   status = 200
+[[redirects]]
+  from = "/storybook"
+  to = "/storybook"
+  status = 200
 
 # [[redirects]]
 #   from = "/*"

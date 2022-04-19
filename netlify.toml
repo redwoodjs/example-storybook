@@ -6,6 +6,9 @@ command = "yarn rw sb --build --no-open"
 publish = "web/public/storybook"
 # functions = "api/dist/functions"
 
+[build.environment]
+  NODE_ENV = "development"
+
 [dev]
   # To use [Netlify Dev](https://www.netlify.com/products/dev/),
   # install netlify-cli from https://docs.netlify.com/cli/get-started/#installation

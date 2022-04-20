@@ -5710,16 +5710,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:0.0.9":
-  version: 0.0.9
-  resolution: "@storybook/testing-library@npm:0.0.9"
+"@storybook/testing-library@npm:0.0.10":
+  version: 0.0.10
+  resolution: "@storybook/testing-library@npm:0.0.10"
   dependencies:
     "@storybook/client-logger": ^6.4.0 || >=6.5.0-0
     "@storybook/instrumenter": ^6.4.0 || >=6.5.0-0
-    "@testing-library/dom": ^8.3.0
-    "@testing-library/user-event": ^13.2.1
+    "@testing-library/dom": ^8.13.0
+    "@testing-library/user-event": ^14.1.1
     ts-dedent: ^2.2.0
-  checksum: 4a750756a91fd06de58d0d4cf9d7e289ad3e757af6417c97f8d077007a2222a2c31c5f7444eb0d034b1cf11363a1e653718962788c23dca67f33d8691ee63a3b
+  checksum: d2ad86ea7ba962d090041e165252fbf992eeeb483bcc9c9a3b336f8d13a5af9202230f3b623a317a4997e5880879adf632e7436c86720aaa8033ddba92f15b90
   languageName: node
   linkType: hard
 
@@ -5840,7 +5840,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.11.1, @testing-library/dom@npm:^8.3.0":
+"@testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.11.1":
   version: 8.11.3
   resolution: "@testing-library/dom@npm:8.11.3"
   dependencies:
@@ -5853,6 +5853,22 @@ __metadata:
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
   checksum: 2a27ace6e6172c26be6e7dd689ead87d874b34fa887017dcf1e20d1e0f6160f26236c53364217af005c14d87ad76680579e51b18ed2a8738e1b72c5ea908f6b2
+  languageName: node
+  linkType: hard
+
+"@testing-library/dom@npm:^8.13.0":
+  version: 8.13.0
+  resolution: "@testing-library/dom@npm:8.13.0"
+  dependencies:
+    "@babel/code-frame": ^7.10.4
+    "@babel/runtime": ^7.12.5
+    "@types/aria-query": ^4.2.0
+    aria-query: ^5.0.0
+    chalk: ^4.1.0
+    dom-accessibility-api: ^0.5.9
+    lz-string: ^1.4.4
+    pretty-format: ^27.0.2
+  checksum: f44edebe5e0ee30678f40255371c542d119c901e9aca86e58804ba81583c302ee0d970f32f09a00598db87af24a631727acb3efdf7fe140d3f824faed0210bfb
   languageName: node
   linkType: hard
 
@@ -5913,14 +5929,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:^13.2.1":
-  version: 13.5.0
-  resolution: "@testing-library/user-event@npm:13.5.0"
-  dependencies:
-    "@babel/runtime": ^7.12.5
+"@testing-library/user-event@npm:^14.1.1":
+  version: 14.1.1
+  resolution: "@testing-library/user-event@npm:14.1.1"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: ff57edaeab31322c80c3f01d55404b4cebb907b9ec7672b96a1a14d053f172046b01c5f27b45677927ebee8ed91bce695a7d09edec9a48875cfacabe39d0426a
+  checksum: 96968b3e43b5a5b77d065318b20d1fa6c3753326f571bc56affe42ee00324353bccc411d384c7dd0f32ffb92ee4737ee39aa37acaa2d8a5ce9627b760658edff
   languageName: node
   linkType: hard
 
@@ -24926,7 +24940,7 @@ __metadata:
     "@storybook/addon-interactions": 6.4.22
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.0.6
-    "@storybook/testing-library": 0.0.9
+    "@storybook/testing-library": 0.0.10
     autoprefixer: 10.4.4
     jest: 27.5.1
     postcss: 8.4.12

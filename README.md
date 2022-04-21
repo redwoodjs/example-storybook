@@ -11,6 +11,12 @@
 Example application written using Redwood that leverages Redwood's [Storybook integration](https://redwoodjs.com/docs/storybook.html#storybook) to highlight Redwood's rich feature set. This includes features such as [Layout](https://learn.redwoodjs.com/docs/tutorial/layouts/), and [Cells](https://redwoodjs.com/docs/cells).
 
 ## Getting Started
+
+To start an ephemeral developer environment and see RedwoodJS in action, click the following button:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/redwoodjs/example-storybook).
+
+If you prefer to set the project up on your local computer, please continue with the following instructions.
 ### System Requirements
 
 > RedwoodJS requires Node.js (>=14.x <=16.x) and Yarn (>=1.15).

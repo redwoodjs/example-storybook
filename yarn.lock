@@ -5710,16 +5710,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:0.0.10":
-  version: 0.0.10
-  resolution: "@storybook/testing-library@npm:0.0.10"
+"@storybook/testing-library@npm:0.0.11":
+  version: 0.0.11
+  resolution: "@storybook/testing-library@npm:0.0.11"
   dependencies:
     "@storybook/client-logger": ^6.4.0 || >=6.5.0-0
     "@storybook/instrumenter": ^6.4.0 || >=6.5.0-0
-    "@testing-library/dom": ^8.13.0
-    "@testing-library/user-event": ^14.1.1
+    "@testing-library/dom": ^8.3.0
+    "@testing-library/user-event": ^13.2.1
     ts-dedent: ^2.2.0
-  checksum: d2ad86ea7ba962d090041e165252fbf992eeeb483bcc9c9a3b336f8d13a5af9202230f3b623a317a4997e5880879adf632e7436c86720aaa8033ddba92f15b90
+  checksum: 417ce96b5bff6c6fa8be80dd98e9d960b39dcd835431153f1c5d4dad21dddbefe1fc3b6d2588adb741556063680f9dd9088283c3ea9176f839430f8d89a2578f
   languageName: node
   linkType: hard
 
@@ -5856,7 +5856,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.13.0":
+"@testing-library/dom@npm:^8.3.0":
   version: 8.13.0
   resolution: "@testing-library/dom@npm:8.13.0"
   dependencies:
@@ -5929,12 +5929,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:^14.1.1":
-  version: 14.1.1
-  resolution: "@testing-library/user-event@npm:14.1.1"
+"@testing-library/user-event@npm:^13.2.1":
+  version: 13.5.0
+  resolution: "@testing-library/user-event@npm:13.5.0"
+  dependencies:
+    "@babel/runtime": ^7.12.5
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 96968b3e43b5a5b77d065318b20d1fa6c3753326f571bc56affe42ee00324353bccc411d384c7dd0f32ffb92ee4737ee39aa37acaa2d8a5ce9627b760658edff
+  checksum: ff57edaeab31322c80c3f01d55404b4cebb907b9ec7672b96a1a14d053f172046b01c5f27b45677927ebee8ed91bce695a7d09edec9a48875cfacabe39d0426a
   languageName: node
   linkType: hard
 
@@ -24940,7 +24942,7 @@ __metadata:
     "@storybook/addon-interactions": 6.4.22
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.0.6
-    "@storybook/testing-library": 0.0.10
+    "@storybook/testing-library": 0.0.11
     autoprefixer: 10.4.4
     jest: 27.5.1
     postcss: 8.4.12

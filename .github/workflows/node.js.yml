@@ -8,11 +8,15 @@ on:
     branches: [ main ]
     paths-ignore:
       - '**.md'
+      - '.gitpod.Dockerfile'
+      - '.gitpod.yml'
   pull_request:
     branches: [ main ]
     paths-ignore:
       - '.github/**'
       - '**.md'
+      - '.gitpod.Dockerfile'
+      - '.gitpod.yml'
   workflow_dispatch:
 
 jobs:

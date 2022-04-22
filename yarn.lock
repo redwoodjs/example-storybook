@@ -5685,9 +5685,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.0.6":
-  version: 0.0.6
-  resolution: "@storybook/test-runner@npm:0.0.6"
+"@storybook/test-runner@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@storybook/test-runner@npm:0.0.7"
   dependencies:
     "@storybook/core-common": ^6.4.14
     "@storybook/csf": 0.0.2--canary.87bc651.0
@@ -5706,7 +5706,7 @@ __metadata:
     jest: ">=26.6.3"
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: 6128fc9536cdf0f2f3dd594ea64b7e9ac2c33ccf20ffa3ced74cf5423cc77626d1fc0f7edbf48ce981dcb0414eef9356013971ea58cdfa37684330b4faa53321
+  checksum: a9dc190346e2989b95a2658bc4a07b06755746984692023621b0907249e78ac0eb7b912e6f5afe6e8c02da42124c31338586b6d714b7f761d6486188632510ca
   languageName: node
   linkType: hard
 
@@ -24941,7 +24941,7 @@ __metadata:
     "@storybook/addon-essentials": 6.4.22
     "@storybook/addon-interactions": 6.4.22
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.0.6
+    "@storybook/test-runner": 0.0.7
     "@storybook/testing-library": 0.0.11
     autoprefixer: 10.4.4
     jest: 27.5.1

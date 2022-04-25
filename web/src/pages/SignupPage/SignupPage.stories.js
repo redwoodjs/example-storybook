@@ -2,7 +2,7 @@
 import SignupPage from './SignupPage'
 
 export default {
-  title: 'Pages/SignupPage',
+  title: 'Generated/dbAuth/SignupPage',
   component: SignupPage,
 }
 const Template = (args) => <SignupPage {...args} />

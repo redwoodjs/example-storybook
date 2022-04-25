@@ -2,7 +2,7 @@
 import ResetPasswordPage from './ResetPasswordPage'
 
 export default {
-  title: 'Pages/ResetPasswordPage',
+  title: 'Generated/dbAuth/ResetPasswordPage',
   component: ResetPasswordPage,
   parameters: {
     layout: 'fullscreen',

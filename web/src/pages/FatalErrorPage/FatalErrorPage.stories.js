@@ -2,7 +2,7 @@
 import FatalErrorPage from './FatalErrorPage'
 
 export default {
-  title: 'Pages/FatalErrorPage',
+  title: 'Generated/create-redwood-app/FatalErrorPage',
   component: FatalErrorPage,
   parameters: {
     layout: 'fullscreen',

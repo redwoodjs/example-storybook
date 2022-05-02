@@ -7898,12 +7898,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.5":
-  version: 10.4.5
-  resolution: "autoprefixer@npm:10.4.5"
+"autoprefixer@npm:10.4.6":
+  version: 10.4.6
+  resolution: "autoprefixer@npm:10.4.6"
   dependencies:
-    browserslist: ^4.20.2
-    caniuse-lite: ^1.0.30001332
+    browserslist: ^4.20.3
+    caniuse-lite: ^1.0.30001334
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -7912,7 +7912,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 8b8f0e9184929597a83d1ea0e11ac7dc0e86c60e6ef1a1afe299d27a33609629d2fc08c322911c7c615d0aeede69593dbcbc79353e56d9421f0d18027ca0aa8f
+  checksum: f44b735c3494abd24077dd77bab98eb02b601bd22075ed81ce38c472da5e586dc3a881dce98e2008d0eeaa984ea368a75a6aeef00d7688d018212ef27fcd7ace
   languageName: node
   linkType: hard
 
@@ -8715,18 +8715,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.20.2":
-  version: 4.20.2
-  resolution: "browserslist@npm:4.20.2"
+"browserslist@npm:^4.20.3":
+  version: 4.20.3
+  resolution: "browserslist@npm:4.20.3"
   dependencies:
-    caniuse-lite: ^1.0.30001317
-    electron-to-chromium: ^1.4.84
+    caniuse-lite: ^1.0.30001332
+    electron-to-chromium: ^1.4.118
     escalade: ^3.1.1
-    node-releases: ^2.0.2
+    node-releases: ^2.0.3
     picocolors: ^1.0.0
   bin:
     browserslist: cli.js
-  checksum: d1f9f07800de445c03ed1035d6672ca647de950c407ef55a6bd757eac9a3e3d1f6e91d81ec68781e514041376320597079f3b522e43f22308ee51dfd02984134
+  checksum: 6e333d8c846b46fe86246129ad4eab70b5678657ddaf84f149073914f36a9aa4e510b645b1b338f2545379adaf4c4ecbbac557118f9cef52b3d6110424d29333
   languageName: node
   linkType: hard
 
@@ -8998,17 +8998,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001317":
-  version: 1.0.30001319
-  resolution: "caniuse-lite@npm:1.0.30001319"
-  checksum: 90190cfbaa004a6c04b51baca8e0f4d2be9779f5bf5b32fedb67f747faa3000e609e5bb1aead5c48d515d8664e6ef9cb168098cd892f0b981686c4e9f42f6808
-  languageName: node
-  linkType: hard
-
 "caniuse-lite@npm:^1.0.30001332":
   version: 1.0.30001332
   resolution: "caniuse-lite@npm:1.0.30001332"
   checksum: e6c22bb34780a18e67d2e5be0c767181f28319d5523bd9ce995fd68bb003822ddc9638a830ce4047155ca16565838a3ccc2fe763e715111d748a62864057b3be
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001334":
+  version: 1.0.30001334
+  resolution: "caniuse-lite@npm:1.0.30001334"
+  checksum: b83566754f0f654d279b6ec85390ddf15376df3774a454b0bb9379fa479e27b8812d6c6d4d8c47725c3f025ed4e0a16fd20da463399f2bead22e73ce71dd9e9b
   languageName: node
   linkType: hard
 
@@ -11245,17 +11245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"electron-to-chromium@npm:^1.4.118":
+  version: 1.4.129
+  resolution: "electron-to-chromium@npm:1.4.129"
+  checksum: 37c46a1679c062cc7a99668ee097b8af7c0b530ae08dcaf0131cf21586a3d566a53349ec694058c722262909cf3ec0e9fccfa4674502a34260dbf27b8fafdf1d
+  languageName: node
+  linkType: hard
+
 "electron-to-chromium@npm:^1.4.76":
   version: 1.4.76
   resolution: "electron-to-chromium@npm:1.4.76"
   checksum: ca45271581691ae22727832e4b94058bc42dd4497aa7b103b3c0082834fe57a5fdabd96fc20283824867aac27e00aa95e3f4207a1d42f98945cbea8630441433
-  languageName: node
-  linkType: hard
-
-"electron-to-chromium@npm:^1.4.84":
-  version: 1.4.91
-  resolution: "electron-to-chromium@npm:1.4.91"
-  checksum: 55e352a43ce8a634e3105751364a11229adfed9c07d2beb6b2fb11dac328abf437d5b189d01649f10262bfe4a6ac8a426a72202e79785adb5934cf86f33e440d
   languageName: node
   linkType: hard
 
@@ -18401,6 +18401,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-releases@npm:^2.0.3":
+  version: 2.0.4
+  resolution: "node-releases@npm:2.0.4"
+  checksum: d18a9d3a5cd3366dfd6a90bd91406a83209b51e1622894ab68c56f0ed0c03275f3cf68c114ef326bed53556fed586977fb22522c56756ac731022bc57286d473
+  languageName: node
+  linkType: hard
+
 "nodemon@npm:2.0.15":
   version: 2.0.15
   resolution: "nodemon@npm:2.0.15"
@@ -24740,7 +24747,7 @@ __metadata:
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.0.8
     "@storybook/testing-library": 0.0.11
-    autoprefixer: 10.4.5
+    autoprefixer: 10.4.6
     jest: 27.5.1
     postcss: 8.4.13
     postcss-loader: 6.2.1

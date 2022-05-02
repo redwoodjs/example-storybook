@@ -7898,12 +7898,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.6":
-  version: 10.4.6
-  resolution: "autoprefixer@npm:10.4.6"
+"autoprefixer@npm:10.4.7":
+  version: 10.4.7
+  resolution: "autoprefixer@npm:10.4.7"
   dependencies:
     browserslist: ^4.20.3
-    caniuse-lite: ^1.0.30001334
+    caniuse-lite: ^1.0.30001335
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -7912,7 +7912,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: f44b735c3494abd24077dd77bab98eb02b601bd22075ed81ce38c472da5e586dc3a881dce98e2008d0eeaa984ea368a75a6aeef00d7688d018212ef27fcd7ace
+  checksum: 80efba20a1884598098eb718c625020f3d234a285e562997c17a5f78560b307b0494051b8851b03862e58a78bafc9e4c9c0d1828293e438a22c935834b6d629e
   languageName: node
   linkType: hard
 
@@ -9005,10 +9005,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001334":
-  version: 1.0.30001334
-  resolution: "caniuse-lite@npm:1.0.30001334"
-  checksum: b83566754f0f654d279b6ec85390ddf15376df3774a454b0bb9379fa479e27b8812d6c6d4d8c47725c3f025ed4e0a16fd20da463399f2bead22e73ce71dd9e9b
+"caniuse-lite@npm:^1.0.30001335":
+  version: 1.0.30001335
+  resolution: "caniuse-lite@npm:1.0.30001335"
+  checksum: d2756ac773e32eee977f71e82ffcfe3b23bb683eda7dc4800531a72f3c2e3155828a4618c08eaf96260a0314fb898ab128abbbfbbce48875ec4943661cfa7cfb
   languageName: node
   linkType: hard
 
@@ -24747,7 +24747,7 @@ __metadata:
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.0.8
     "@storybook/testing-library": 0.0.11
-    autoprefixer: 10.4.6
+    autoprefixer: 10.4.7
     jest: 27.5.1
     postcss: 8.4.13
     postcss-loader: 6.2.1

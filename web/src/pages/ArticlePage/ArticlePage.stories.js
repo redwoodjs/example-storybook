@@ -5,11 +5,7 @@ import { standard } from 'src/components/ArticleCell/ArticleCell.mock'
 export const generated = (arg) => {
   mockGraphQLQuery('FindArticleQuery', (variables, { ctx }) => {
     console.log({ variables, ctx })
-    return {
-      data: {
-        ...standard,
-      },
-    }
+    return standard
   })
   return <ArticlePage {...arg} />
 }

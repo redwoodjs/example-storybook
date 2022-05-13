@@ -1,6 +1,16 @@
 import ArticlePage from './ArticlePage'
+import { mockGraphQLQuery } from '@redwoodjs/testing/web'
+import { standard } from 'src/components/ArticleCell/ArticleCell.mock'
 
 export const generated = (arg) => {
+  mockGraphQLQuery('FindArticleQuery', (variables, { ctx }) => {
+    console.log({ variables, ctx })
+    return {
+      data: {
+        ...standard,
+      },
+    }
+  })
   return <ArticlePage {...arg} />
 }
 

@@ -19961,17 +19961,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:6.2.1":
-  version: 6.2.1
-  resolution: "postcss-loader@npm:6.2.1"
+"postcss-loader@npm:7.0.0":
+  version: 7.0.0
+  resolution: "postcss-loader@npm:7.0.0"
   dependencies:
     cosmiconfig: ^7.0.0
     klona: ^2.0.5
-    semver: ^7.3.5
+    semver: ^7.3.7
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: 736a1bf43a3e09e2351b5cc97cc26790a1c3261412c9dee063f3f6f2969a6ff7d8d194d9adcad01cee1afd1de071482318d9699e6157b67d46b3dccf3be1b58b
+  checksum: d3cba8c1e9c273b57b72e5ec9ee8ef8786f0682b7a952d1bce5383b9c17c6d5085d7e82da8a6b02bd2548cf1f5219f6823e116e438c529782a2738ba95ae793c
   languageName: node
   linkType: hard
 
@@ -22239,6 +22239,17 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: d450455b2601396dbc7d9f058a6709b1c0b99d74a911f9436c77887600ffcdb5f63d5adffa0c3b8f0092937d8a41cc61c6437bcba375ef4151cb1335ebe4f1f9
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.7":
+  version: 7.3.7
+  resolution: "semver@npm:7.3.7"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: cffd30102de68a9f8cac9ef57b43c2173dc999da4fc5189872b421f9c9e2660f70243b8e964781ac6dc48ba2542647bb672beeb4d756c89c4a9e05e1144fa40a
   languageName: node
   linkType: hard
 
@@ -25030,7 +25041,7 @@ __metadata:
     autoprefixer: 10.4.7
     jest: 27.5.1
     postcss: 8.4.14
-    postcss-loader: 6.2.1
+    postcss-loader: 7.0.0
     prop-types: 15.8.1
     react: 18.1.0
     react-dom: 18.1.0

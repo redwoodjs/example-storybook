@@ -5243,6 +5243,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/csf@npm:0.0.2--canary.4566f4d.1":
+  version: 0.0.2--canary.4566f4d.1
+  resolution: "@storybook/csf@npm:0.0.2--canary.4566f4d.1"
+  dependencies:
+    lodash: ^4.17.15
+  checksum: dc0fe9940a47fbba9762275083816953da07a188f0315a631c307716b16a7073586a4d229df6b177dfb4b01604667e2bb24c13d6bfcb137d2f4d306874a590f4
+  languageName: node
+  linkType: hard
+
 "@storybook/csf@npm:0.0.2--canary.87bc651.0":
   version: 0.0.2--canary.87bc651.0
   resolution: "@storybook/csf@npm:0.0.2--canary.87bc651.0"
@@ -5609,11 +5618,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.0.8":
-  version: 0.0.8
-  resolution: "@storybook/test-runner@npm:0.0.8"
+"@storybook/test-runner@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@storybook/test-runner@npm:0.1.0"
   dependencies:
-    "@storybook/csf": 0.0.2--canary.87bc651.0
+    "@storybook/csf": 0.0.2--canary.4566f4d.1
     commander: ^9.0.0
     global: ^4.4.0
     is-localhost-ip: ^1.4.0
@@ -5624,13 +5633,13 @@ __metadata:
     tempy: ^1.0.1
     ts-dedent: ^2.0.0
   peerDependencies:
-    "@storybook/core-common": ^6.4.0 || >= 6.5.0-alpha.1
-    "@storybook/csf-tools": ^6.4.0 || >= 6.5.0-alpha.1
-    "@storybook/store": ^6.4.0 || >= 6.5.0-alpha.1
+    "@storybook/core-common": ^6.5.0
+    "@storybook/csf-tools": ^6.5.0
+    "@storybook/store": ^6.5.0
     jest: ^26.6.3 || ^27.0.0
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: 3bbc94987321b204c754072c2de502e77b6da9f4a73e5d1e9af859f158ba5fa971cae4cfe80b35196a4c161903372bdd4982ec1c08036c76bc72bbc0db5046c0
+  checksum: f5e28d836d377f7b290c5006594e08441a7bf63010c7855309bf20cf8f555ee75668994a970a62ce507ed786bd92cdf7ce950cae704d858aa531ce0c274faf6f
   languageName: node
   linkType: hard
 
@@ -25036,7 +25045,7 @@ __metadata:
     "@redwoodjs/web": 1.4.1
     "@storybook/addon-interactions": 6.4.22
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.0.8
+    "@storybook/test-runner": 0.1.0
     "@storybook/testing-library": 0.0.11
     autoprefixer: 10.4.7
     jest: 27.5.1

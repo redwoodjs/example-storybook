@@ -62,7 +62,7 @@ jobs:
     # it goes into web/public/storybook which then gets built and put into
     # web/dist
     - run: yarn rw sb --build --no-open && yarn rw build
-    - uses: actions/upload-artifact@v3.0.0
+    - uses: actions/upload-artifact@v3.1.0
       with:
         name: build-for-${{github.sha}}-node-${{matrix.node-version}}
         path: |

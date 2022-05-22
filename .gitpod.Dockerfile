@@ -24,6 +24,6 @@ RUN PGDATA="${PGDATA//\/workspace/$HOME}" \
                   '[[ $(pg_ctl status | grep PID) ]] || pg_start > /dev/null' > ~/.bashrc.d/200-postgresql-launch
 ENV PATH="$HOME/.pg_ctl/bin:$PATH"
 ENV PGHOSTADDR="127.0.0.1"
-ENV PGDATABASE="dev"
+ENV PGDATABASE="postgres"
 
 USER gitpod

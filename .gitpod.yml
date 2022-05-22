@@ -14,6 +14,9 @@ tasks:
     command: yarn redwood dev
 
 ports:
+  - port: 5555
+    name: Prisma Studio
+    onOpen: open-browser
   - port: 5432
     name: PostgreSQL database
     onOpen: ignore

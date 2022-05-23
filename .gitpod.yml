@@ -7,13 +7,23 @@ image:
 
 tasks:
   - init: |
+      createdb dev
       yarn install
+      cp .env.defaults .env
+      echo "SESSION_SECRET=$(yarn rw g secret | sed '2q;d' | xargs)" >> .env
+      yarn rw prisma migrate dev
     command: yarn redwood dev
 
 ports:
   - port: 5432
     name: PostgreSQL database
     onOpen: ignore
+  - port: 5555
+    name: Prisma Studio
+    onOpen: open-browser
+  - port: 7910
+    name: Storybook
+    onOpen: open-browser
   - port: 8910
     name: RedoodJS web application
     onOpen: open-browser

@@ -22,7 +22,7 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "@storybook/addon-interactions": "6.5.4",
+    "@storybook/addon-interactions": "6.5.5",
     "@storybook/jest": "0.0.10",
     "@storybook/test-runner": "0.1.0",
     "@storybook/testing-library": "0.0.11",

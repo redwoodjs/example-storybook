@@ -25,8 +25,7 @@
     "@storybook/addon-a11y": "6.5.5",
     "@storybook/builder-webpack5": "6.5.5",
     "@storybook/manager-webpack5": "6.5.5",
-    "@storybook/react": "6.5.5",
-    "@storybook/store@6.5.3": "patch:@storybook/store@npm:6.5.3#.yarn/patches/@storybook-store-npm-6.5.3-0ecb734d7b.patch"
+    "@storybook/react": "6.5.5"
   },
   "packageManager": "yarn@3.2.1"
 }

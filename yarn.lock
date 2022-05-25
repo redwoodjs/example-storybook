@@ -5961,9 +5961,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@storybook/test-runner@npm:0.1.0"
+"@storybook/test-runner@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@storybook/test-runner@npm:0.1.1"
   dependencies:
     "@storybook/csf": 0.0.2--canary.4566f4d.1
     commander: ^9.0.0
@@ -5973,6 +5973,7 @@ __metadata:
     jest-watch-typeahead: ^1.0.0
     node-fetch: ^2
     playwright: ^1.14.0
+    semver: ^7.3.7
     tempy: ^1.0.1
     ts-dedent: ^2.0.0
   peerDependencies:
@@ -5982,7 +5983,7 @@ __metadata:
     jest: ^26.6.3 || ^27.0.0
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: f5e28d836d377f7b290c5006594e08441a7bf63010c7855309bf20cf8f555ee75668994a970a62ce507ed786bd92cdf7ce950cae704d858aa531ce0c274faf6f
+  checksum: 86a369877ab547c19586b3ef17a6b6de9fe3243afb201fab32dfbc30ba1eede68f7bef824d6c6e13e5da50116bf68c56909d10ef2fb3863b0be89bd1e3c4ee69
   languageName: node
   linkType: hard
 
@@ -25407,7 +25408,7 @@ __metadata:
     "@redwoodjs/web": 1.5.0
     "@storybook/addon-interactions": 6.5.5
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.1.0
+    "@storybook/test-runner": 0.1.1
     "@storybook/testing-library": 0.0.11
     autoprefixer: 10.4.7
     jest: 27.5.1

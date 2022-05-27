@@ -2,7 +2,7 @@
 import LoginPage from './LoginPage'
 
 export default {
-  title: 'Pages/LoginPage',
+  title: 'Generated/dbAuth/LoginPage',
   component: LoginPage,
 }
 const Template = (args) => <LoginPage {...args} />

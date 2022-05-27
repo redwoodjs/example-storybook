@@ -2,7 +2,7 @@
 import ForgotPasswordPage from './ForgotPasswordPage'
 
 export default {
-  title: 'Pages/ForgotPasswordPage',
+  title: 'Generated/dbAuth/ForgotPasswordPage',
   component: ForgotPasswordPage,
   parameters: {
     layout: 'fullscreen',

@@ -2,7 +2,7 @@
 import NotFoundPage from './NotFoundPage'
 
 export default {
-  title: 'Pages/NotFoundPage',
+  title: 'Generated/create-redwood-app/NotFoundPage',
   component: NotFoundPage,
   parameters: {
     layout: 'fullscreen',

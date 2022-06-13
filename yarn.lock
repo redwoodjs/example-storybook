@@ -23872,9 +23872,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.1.1":
-  version: 3.1.1
-  resolution: "tailwindcss@npm:3.1.1"
+"tailwindcss@npm:3.1.2":
+  version: 3.1.2
+  resolution: "tailwindcss@npm:3.1.2"
   dependencies:
     arg: ^5.0.1
     chokidar: ^3.5.3
@@ -23903,7 +23903,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 8a7bfc3b19c7aef77c587b16cec7adc79c7ec2bdc9bb4816c478f0706c2ab3b6c5d2203c7947630341edf2b6867ee91bd7e7013eb0b6686b24f301e4e5838f09
+  checksum: 5cc1d51e366bd8b21667f2b5916128cb3fb6f18d1dfbde3723e45edc1869b51c1b40d0e95f8acfcd27f7696e89547771ef56573ce9a966e74fea6faea0b03054
   languageName: node
   linkType: hard
 
@@ -25436,7 +25436,7 @@ __metadata:
     prop-types: 15.8.1
     react: 18.1.0
     react-dom: 18.1.0
-    tailwindcss: 3.1.1
+    tailwindcss: 3.1.2
   languageName: unknown
   linkType: soft
 

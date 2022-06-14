@@ -8154,7 +8154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"arg@npm:5.0.1, arg@npm:^5.0.1":
+"arg@npm:5.0.1":
   version: 5.0.1
   resolution: "arg@npm:5.0.1"
   checksum: b7087004468507db9bb5dbd00de408e0b589b63620e09ca8c45bef0731fce337ce43f66fb1dd88551648f31e8ae081a60a8ed27a60213d3968b6f65b7b1f5930
@@ -8165,6 +8165,13 @@ __metadata:
   version: 4.1.3
   resolution: "arg@npm:4.1.3"
   checksum: 070ff801a9d236a6caa647507bdcc7034530604844d64408149a26b9e87c2f97650055c0f049abd1efc024b334635c01f29e0b632b371ac3f26130f4cf65997a
+  languageName: node
+  linkType: hard
+
+"arg@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "arg@npm:5.0.2"
+  checksum: ccaf86f4e05d342af6666c569f844bec426595c567d32a8289715087825c2ca7edd8a3d204e4d2fb2aa4602e09a57d0c13ea8c9eea75aac3dbb4af5514e6800e
   languageName: node
   linkType: hard
 
@@ -23888,11 +23895,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.1.2":
-  version: 3.1.2
-  resolution: "tailwindcss@npm:3.1.2"
+"tailwindcss@npm:3.1.3":
+  version: 3.1.3
+  resolution: "tailwindcss@npm:3.1.3"
   dependencies:
-    arg: ^5.0.1
+    arg: ^5.0.2
     chokidar: ^3.5.3
     color-name: ^1.1.4
     detective: ^5.2.1
@@ -23919,7 +23926,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 5cc1d51e366bd8b21667f2b5916128cb3fb6f18d1dfbde3723e45edc1869b51c1b40d0e95f8acfcd27f7696e89547771ef56573ce9a966e74fea6faea0b03054
+  checksum: bfcefed413083de8043b87f946977df0f5103014a8d128de5413fd237225267dbd9f505ad795127bd0605baf8996cd1c4988d78ee61449f053f57877cf1397a3
   languageName: node
   linkType: hard
 
@@ -25452,7 +25459,7 @@ __metadata:
     prop-types: 15.8.1
     react: 18.1.0
     react-dom: 18.1.0
-    tailwindcss: 3.1.2
+    tailwindcss: 3.1.3
   languageName: unknown
   linkType: soft
 

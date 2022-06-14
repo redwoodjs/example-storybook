@@ -58,6 +58,7 @@ jobs:
         cache: 'yarn'
     - uses: nick-fields/retry@v2.7.0
       with:
+        timeout_minutes: 2
         max_attempts: 3
         retry_on: error
         command: yarn install --immutable

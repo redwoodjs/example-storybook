@@ -25,7 +25,8 @@
     "@storybook/addon-a11y": "6.5.9",
     "@storybook/builder-webpack5": "6.5.9",
     "@storybook/manager-webpack5": "6.5.9",
-    "@storybook/react": "6.5.9"
+    "@storybook/react": "6.5.9",
+    "@redwoodjs/cli@2.0.0": "patch:@redwoodjs/cli@npm:2.0.0#.yarn/patches/@redwoodjs-cli-npm-2.0.0-bbd874ccb2.patch"
   },
   "packageManager": "yarn@3.2.1"
 }

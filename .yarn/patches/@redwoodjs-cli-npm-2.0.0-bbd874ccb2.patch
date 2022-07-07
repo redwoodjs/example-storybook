@@ -1,0 +1,15 @@
+diff --git a/dist/commands/storybook.js b/dist/commands/storybook.js
+index d38e751f97d8096c11530c183acef83a88962493..c4eb8025786eb0dce85797400e0429062528738b 100644
+--- a/dist/commands/storybook.js
++++ b/dist/commands/storybook.js
+@@ -89,8 +89,8 @@ const handler = ({
+   const staticAssetsFolder = _path.default.join((0, _internal.getPaths)().web.base, 'public'); // Create the `MockServiceWorker.js` file
+   // https://mswjs.io/docs/cli/init
+
+-
+-  (0, _execa.default)(`yarn msw init "${staticAssetsFolder}" --no-save`, undefined, {
++  const mswServerWorkerUrl = build ? buildDirectory : staticAssetsFolder;
++  (0, _execa.default)(`yarn msw init "${mswServerWorkerUrl}" --no-save`, undefined, {
+     stdio: 'inherit',
+     shell: true,
+     cwd

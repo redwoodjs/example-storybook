@@ -3930,6 +3930,54 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/cli@patch:@redwoodjs/cli@npm:2.0.0#.yarn/patches/@redwoodjs-cli-npm-2.0.0-bbd874ccb2.patch::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 2.0.0
+  resolution: "@redwoodjs/cli@patch:@redwoodjs/cli@npm%3A2.0.0#.yarn/patches/@redwoodjs-cli-npm-2.0.0-bbd874ccb2.patch::version=2.0.0&hash=75d0c6&locator=root-workspace-0b6124%40workspace%3A."
+  dependencies:
+    "@babel/runtime-corejs3": 7.16.7
+    "@prisma/sdk": 3.14.0
+    "@redwoodjs/api-server": 2.0.0
+    "@redwoodjs/internal": 2.0.0
+    "@redwoodjs/prerender": 2.0.0
+    "@redwoodjs/structure": 2.0.0
+    "@redwoodjs/telemetry": 2.0.0
+    boxen: 5.1.2
+    camelcase: 6.3.0
+    chalk: 4.1.2
+    concurrently: 7.2.1
+    configstore: 3.1.5
+    core-js: 3.22.8
+    cross-env: 7.0.3
+    decamelize: 5.0.0
+    dotenv-defaults: 5.0.0
+    envinfo: 7.8.1
+    execa: 5.1.1
+    fast-glob: 3.2.11
+    fs-extra: 10.1.0
+    humanize-string: 2.1.0
+    latest-version: 5.1.0
+    listr: 0.14.3
+    listr-verbose-renderer: 0.6.0
+    lodash: 4.17.21
+    param-case: 3.0.4
+    pascalcase: 1.0.0
+    pluralize: 8.0.0
+    prettier: 2.6.2
+    prisma: 3.14.0
+    prompts: 2.4.2
+    rimraf: 3.0.2
+    secure-random-password: 0.2.3
+    terminal-link: 2.1.1
+    title-case: 3.0.3
+    yargs: 17.5.1
+  bin:
+    redwood: dist/index.js
+    rw: dist/index.js
+    rwfw: dist/rwfw.js
+  checksum: 4de8b880072c56eb38fa2328750f9a5aa2c8ee3e8f36d1e153e8b90e6d100a709188d222ceee4f75b778b9013cbeea33c4f42ce773ae8f3c4af6e0cd1772e2ed
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/core@npm:2.0.0":
   version: 2.0.0
   resolution: "@redwoodjs/core@npm:2.0.0"

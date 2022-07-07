@@ -1,6 +1,7 @@
 //@ts-check
-import { within } from '@storybook/testing-library'
 import { expect } from '@storybook/jest'
+import { within } from '@storybook/testing-library'
+
 import BlogLayout from './BlogLayout'
 
 export const generated = (args) => {

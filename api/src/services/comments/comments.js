@@ -1,5 +1,5 @@
-import { db } from 'src/lib/db'
 import { requireAuth } from 'src/lib/auth'
+import { db } from 'src/lib/db'
 
 export const comments = ({ postId }) => {
   return db.comment.findMany({ where: { postId } })

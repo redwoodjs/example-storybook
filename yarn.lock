@@ -20908,9 +20908,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:7.0.0":
-  version: 7.0.0
-  resolution: "postcss-loader@npm:7.0.0"
+"postcss-loader@npm:7.0.1":
+  version: 7.0.1
+  resolution: "postcss-loader@npm:7.0.1"
   dependencies:
     cosmiconfig: ^7.0.0
     klona: ^2.0.5
@@ -20918,7 +20918,7 @@ __metadata:
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: d3cba8c1e9c273b57b72e5ec9ee8ef8786f0682b7a952d1bce5383b9c17c6d5085d7e82da8a6b02bd2548cf1f5219f6823e116e438c529782a2738ba95ae793c
+  checksum: 7b33a2485d6b55382a3f31bfc87b3b54b2ba8d278f4ddb36a1dd83c5d37add9727624c907fdc05c2803a17c7063de965e9c5ab4a2276bc3f6923e89cc90faf88
   languageName: node
   linkType: hard
 
@@ -26042,7 +26042,7 @@ __metadata:
     autoprefixer: 10.4.7
     jest: 27.5.1
     postcss: 8.4.14
-    postcss-loader: 7.0.0
+    postcss-loader: 7.0.1
     prop-types: 15.8.1
     react: 18.2.0
     react-dom: 18.2.0

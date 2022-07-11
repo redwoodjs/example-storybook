@@ -2851,7 +2851,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@istanbuljs/load-nyc-config@npm:^1.0.0":
+"@istanbuljs/load-nyc-config@npm:^1.0.0, @istanbuljs/load-nyc-config@npm:^1.1.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
   dependencies:
@@ -4577,6 +4577,17 @@ __metadata:
     react-dom:
       optional: true
   checksum: 9856f4383c3cb3cdb4f42cebd56db3058f5567d0603fc20e590db837d1a4bea47b2b737be23f70f54768e9ba96d04ec800c759e927092bed9c24bac679bb74e6
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-coverage@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@storybook/addon-coverage@npm:0.0.5"
+  dependencies:
+    "@types/babel__core": ^7.1.19
+    babel-plugin-istanbul: ^6.1.1
+    vite-plugin-istanbul: ^3.0.1
+  checksum: d896f3399afca6ce79ff4922def9faad91d477035540cf365694177928f5379d45d60b6aefcac81972b730af701f6dc3e35267e5567e6afa72971810a16fe9e2
   languageName: node
   linkType: hard
 
@@ -6375,16 +6386,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.1.14":
-  version: 7.1.18
-  resolution: "@types/babel__core@npm:7.1.18"
+"@types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.1.19":
+  version: 7.1.19
+  resolution: "@types/babel__core@npm:7.1.19"
   dependencies:
     "@babel/parser": ^7.1.0
     "@babel/types": ^7.0.0
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: af7165b49a816eb6842fc0bd9834390665ed8216bf29096f051e648a9cd09d337c129261d5fcfcfa8e0e166b3facce85519ea5000bbb941671e83dd6cd6e0518
+  checksum: d07442fee0a1331405c80efc06dd74fe815fc9ac1351de54c4eaf06fea9e516992a6f6a139361d78df5828b0a94977f33c977d9391b09949b959fd20d80f48d8
   languageName: node
   linkType: hard
 
@@ -25343,6 +25354,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vite-plugin-istanbul@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "vite-plugin-istanbul@npm:3.0.1"
+  dependencies:
+    "@istanbuljs/load-nyc-config": ^1.1.0
+    istanbul-lib-instrument: ^5.1.0
+    picocolors: ^1.0.0
+    test-exclude: ^6.0.0
+  checksum: af42cea5b80518f1191eac49c97a764a08a357c8b89b97d33de3949cd8f243268927af3ed8eac3047c78f11687913525d280ad5179f875421b42fcc0aa63f393
+  languageName: node
+  linkType: hard
+
 "vm-browserify@npm:^1.0.1":
   version: 1.1.2
   resolution: "vm-browserify@npm:1.1.2"
@@ -25550,6 +25573,7 @@ __metadata:
     "@redwoodjs/forms": 3.2.1
     "@redwoodjs/router": 3.2.1
     "@redwoodjs/web": 3.2.1
+    "@storybook/addon-coverage": 0.0.5
     "@storybook/addon-interactions": 6.5.13
     "@storybook/addon-storyshots": 6.5.13
     "@storybook/jest": 0.0.10

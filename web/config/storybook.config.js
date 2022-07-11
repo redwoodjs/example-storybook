@@ -6,7 +6,7 @@ module.exports = {
   features: {
     interactionsDebugger: true,
   },
-  addons: ['@storybook/addon-interactions'],
+  addons: ['@storybook/addon-interactions', '@storybook/addon-coverage'],
   stories: [
     `${importStatementPath(
       rwjsPaths.web.src

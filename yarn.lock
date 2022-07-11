@@ -4586,6 +4586,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/addon-coverage@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@storybook/addon-coverage@npm:0.0.2"
+  dependencies:
+    "@types/babel__core": ^7.1.19
+    babel-plugin-istanbul: ^6.1.1
+  checksum: 98715fb3c308cabcbda6a02976b287ed33f51c7b85338eb9ee9d5f01304ec9410f725f7f0edb5321be262196c9bd49320a0d84a3b20e2eef9398427f9896fe62
+  languageName: node
+  linkType: hard
+
 "@storybook/addon-docs@npm:6.5.9":
   version: 6.5.9
   resolution: "@storybook/addon-docs@npm:6.5.9"
@@ -6199,6 +6209,19 @@ __metadata:
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
   checksum: af7165b49a816eb6842fc0bd9834390665ed8216bf29096f051e648a9cd09d337c129261d5fcfcfa8e0e166b3facce85519ea5000bbb941671e83dd6cd6e0518
+  languageName: node
+  linkType: hard
+
+"@types/babel__core@npm:^7.1.19":
+  version: 7.1.19
+  resolution: "@types/babel__core@npm:7.1.19"
+  dependencies:
+    "@babel/parser": ^7.1.0
+    "@babel/types": ^7.0.0
+    "@types/babel__generator": "*"
+    "@types/babel__template": "*"
+    "@types/babel__traverse": "*"
+  checksum: d07442fee0a1331405c80efc06dd74fe815fc9ac1351de54c4eaf06fea9e516992a6f6a139361d78df5828b0a94977f33c977d9391b09949b959fd20d80f48d8
   languageName: node
   linkType: hard
 
@@ -25781,6 +25804,7 @@ __metadata:
     "@redwoodjs/forms": 2.1.0
     "@redwoodjs/router": 2.1.0
     "@redwoodjs/web": 2.1.0
+    "@storybook/addon-coverage": 0.0.2
     "@storybook/addon-interactions": 6.5.9
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.5.0

@@ -1,8 +1,6 @@
-import humanize from 'humanize-string'
-
+import { Link, routes } from '@redwoodjs/router'
 import { useMutation } from '@redwoodjs/web'
 import { toast } from '@redwoodjs/web/toast'
-import { Link, routes } from '@redwoodjs/router'
 
 import { QUERY } from 'src/components/Post/PostsCell'
 
@@ -16,17 +14,6 @@ const DELETE_POST_MUTATION = gql`
 
 const MAX_STRING_LENGTH = 150
 
-const formatEnum = (values) => {
-  if (values) {
-    if (Array.isArray(values)) {
-      const humanizedValues = values.map((value) => humanize(value))
-      return humanizedValues.join(', ')
-    } else {
-      return humanize(values)
-    }
-  }
-}
-
 const truncate = (text) => {
   let output = text
   if (text && text.length > MAX_STRING_LENGTH) {
@@ -35,7 +22,8 @@ const truncate = (text) => {
   return output
 }
 
-const jsonTruncate = (obj) => {
+// TODO see why this is no longer used
+export const jsonTruncate = (obj) => {
   return truncate(JSON.stringify(obj, null, 2))
 }
 
@@ -47,10 +35,6 @@ const timeTag = (datetime) => {
       </time>
     )
   )
-}
-
-const checkboxInputTag = (checked) => {
-  return <input type="checkbox" checked={checked} disabled />
 }
 
 const PostsList = ({ posts }) => {

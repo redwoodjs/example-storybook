@@ -1,6 +1,7 @@
+import { mockGraphQLMutation } from '@redwoodjs/testing/web'
+
 import Article from './Article'
 import { standard } from './Article.mock'
-import { mockGraphQLMutation } from '@redwoodjs/testing/web'
 
 /** @type { import("@storybook/react").Meta } */
 export default {

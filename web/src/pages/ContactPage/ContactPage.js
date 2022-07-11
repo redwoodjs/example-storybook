@@ -1,4 +1,3 @@
-import { MetaTags } from '@redwoodjs/web'
 import {
   FieldError,
   Form,
@@ -9,6 +8,7 @@ import {
   Submit,
   useForm,
 } from '@redwoodjs/forms'
+import { MetaTags } from '@redwoodjs/web'
 import { useMutation } from '@redwoodjs/web'
 import { toast, Toaster } from '@redwoodjs/web/toast'
 

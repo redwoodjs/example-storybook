@@ -1,5 +1,6 @@
 import { useAuth } from '@redwoodjs/auth'
 import { useMutation } from '@redwoodjs/web'
+
 import { QUERY as CommentsQuery } from 'src/components/CommentsCell'
 
 const DELETE = gql`

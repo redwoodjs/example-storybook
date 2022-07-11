@@ -1,6 +1,7 @@
 //@ts-check
-import { within } from '@storybook/testing-library'
 import { expect } from '@storybook/jest'
+import { within } from '@storybook/testing-library'
+
 import AboutPage from './AboutPage'
 
 export const generated = () => {

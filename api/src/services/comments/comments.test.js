@@ -1,6 +1,8 @@
-import { comments, createComment, deleteComment } from './comments'
-import { db } from 'src/lib/db'
 import { AuthenticationError, ForbiddenError } from '@redwoodjs/graphql-server'
+
+import { db } from 'src/lib/db'
+
+import { comments, createComment, deleteComment } from './comments'
 
 // Generated boilerplate tests do not account for all circumstances
 // and can fail without adjustments, e.g. Float and DateTime types.

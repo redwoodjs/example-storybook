@@ -5839,14 +5839,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@storybook/test-runner@npm:0.4.0"
+"@storybook/test-runner@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@storybook/test-runner@npm:0.5.0"
   dependencies:
     "@storybook/csf": 0.0.2--canary.4566f4d.1
+    can-bind-to-host: ^1.1.1
     commander: ^9.0.0
     global: ^4.4.0
-    is-localhost-ip: ^1.4.0
     jest-playwright-preset: ^1.7.2
     jest-serializer-html: ^7.1.0
     jest-watch-typeahead: ^1.0.0
@@ -5862,7 +5862,7 @@ __metadata:
     jest: ^26.6.3 || ^27.0.0
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: 3b16d64d0173a2873d70f02443dd3e9b46e6c035919985645405906e5321d3ed9f1d4b8ae91f0941df5682199cc0f3b110182da4203092c85e95ec9e655aa71d
+  checksum: 37506db2fddc4fffdc8b729c41e5d3cce96cc6308e0b01ebb8c914a561c2f21aea6c636d6be34742c5551fe4facc8e9e6c76390fdec0c6aee807aa0290febdb6
   languageName: node
   linkType: hard
 
@@ -9477,6 +9477,15 @@ __metadata:
   version: 5.3.1
   resolution: "camelcase@npm:5.3.1"
   checksum: 92ff9b443bfe8abb15f2b1513ca182d16126359ad4f955ebc83dc4ddcc4ef3fdd2c078bc223f2673dc223488e75c99b16cc4d056624374b799e6a1555cf61b23
+  languageName: node
+  linkType: hard
+
+"can-bind-to-host@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "can-bind-to-host@npm:1.1.1"
+  bin:
+    can-bind-to-host: dist/bin/can-bind-to-host.js
+  checksum: f256d2c11e0e808b5972253674d587809afbee5090400ad72afdce6744fd6a088d949777cd5001d6c88d74700fd1260d4d5054ae15d47ee5cb27057f59a32e8a
   languageName: node
   linkType: hard
 
@@ -16020,13 +16029,6 @@ __metadata:
   version: 1.0.1
   resolution: "is-lambda@npm:1.0.1"
   checksum: 85fee098ae62ba6f1e24cf22678805473c7afd0fb3978a3aa260e354cb7bcb3a5806cf0a98403188465efedec41ab4348e8e4e79305d409601323855b3839d4d
-  languageName: node
-  linkType: hard
-
-"is-localhost-ip@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "is-localhost-ip@npm:1.4.0"
-  checksum: df861587ea8d9f9962109828107f3aca09a64106330cfd601589ab81f2789741db6de8a88ad525b24b29bedd5fcaeafca06e0bfff080f58fe02898a7574f4b6a
   languageName: node
   linkType: hard
 
@@ -25781,7 +25783,7 @@ __metadata:
     "@redwoodjs/web": 2.1.0
     "@storybook/addon-interactions": 6.5.9
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.4.0
+    "@storybook/test-runner": 0.5.0
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.7
     jest: 27.5.1

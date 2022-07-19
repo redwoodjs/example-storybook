@@ -62,7 +62,12 @@ jobs:
         max_attempts: 3
         retry_on: error
         command: yarn install --immutable
-    - run: yarn rw test && yarn workspace web test-storybook:ci
+    - uses: nick-fields/retry@v2.7.0
+      with:
+        timeout_minutes: 3
+        max_attempts: 3
+        retry_on: error
+        command: yarn rw test && yarn workspace web test-storybook:ci
     # order of steps is important, storybook needs to be built first as
     # it goes into web/public/storybook which then gets built and put into
     # web/dist

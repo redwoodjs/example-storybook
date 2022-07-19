@@ -12,7 +12,7 @@ tasks:
       cp .env.defaults .env
       echo "SESSION_SECRET=$(yarn rw g secret | sed '2q;d' | xargs)" >> .env
       yarn rw prisma migrate dev
-    command: yarn redwood dev
+    command: yarn rw sb
 
 ports:
   - port: 5432

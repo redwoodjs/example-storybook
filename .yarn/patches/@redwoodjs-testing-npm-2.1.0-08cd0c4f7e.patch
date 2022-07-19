@@ -1,0 +1,15 @@
+diff --git a/config/storybook/main.js b/config/storybook/main.js
+index efa702ce966cc94aa607c33c78b8f0273649b589..eedb97cb9d05828355581cd0ce2c5ce863ded042 100644
+--- a/config/storybook/main.js
++++ b/config/storybook/main.js
+@@ -122,10 +122,6 @@ const baseConfig = {
+ 
+     return sbConfig
+   },
+-  // only set staticDirs when running Storybook process; will fail if set for SB --build
+-  ...(process.env.NODE_ENV !== 'production' && {
+-    staticDirs: [`${staticAssetsFolder}`],
+-  }),
+ }
+ 
+ const mergeUserStorybookConfig = (baseConfig) => {

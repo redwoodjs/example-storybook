@@ -4354,6 +4354,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/testing@patch:@redwoodjs/testing@npm:2.1.0#.yarn/patches/@redwoodjs-testing-npm-2.1.0-08cd0c4f7e.patch::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 2.1.0
+  resolution: "@redwoodjs/testing@patch:@redwoodjs/testing@npm%3A2.1.0#.yarn/patches/@redwoodjs-testing-npm-2.1.0-08cd0c4f7e.patch::version=2.1.0&hash=561279&locator=root-workspace-0b6124%40workspace%3A."
+  dependencies:
+    "@babel/runtime-corejs3": 7.16.7
+    "@redwoodjs/auth": 2.1.0
+    "@redwoodjs/graphql-server": 2.1.0
+    "@redwoodjs/internal": 2.1.0
+    "@redwoodjs/router": 2.1.0
+    "@redwoodjs/web": 2.1.0
+    "@storybook/addon-a11y": 6.5.9
+    "@storybook/addon-docs": 6.5.9
+    "@storybook/addon-essentials": 6.5.9
+    "@storybook/builder-webpack5": 6.5.9
+    "@storybook/manager-webpack5": 6.5.9
+    "@storybook/react": 6.5.9
+    "@testing-library/jest-dom": 5.16.4
+    "@testing-library/react": 12.1.5
+    "@testing-library/react-hooks": 8.0.0
+    "@testing-library/user-event": 14.2.0
+    "@types/aws-lambda": 8.10.97
+    "@types/babel-core": 6.25.7
+    "@types/jest": 27.5.2
+    "@types/node": 16.11.38
+    "@types/react": 17.0.47
+    "@types/react-dom": 17.0.17
+    "@types/webpack": 5.28.0
+    babel-jest: 27.5.1
+    babel-plugin-inline-react-svg: 2.0.1
+    core-js: 3.23.3
+    jest: 27.5.1
+    jest-watch-typeahead: 1.1.0
+    msw: 0.40.2
+    ts-toolbelt: 9.6.0
+    whatwg-fetch: 3.6.2
+  checksum: 9d5333cc1ef7daee399c569d8e0c189a7eb7d58ff24cf70a4a1c03b2e3664c3d85fab932c8db459861090ac06068b4209989121d9481ecb69f363857b7e4a56c
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/web@npm:2.1.0":
   version: 2.1.0
   resolution: "@redwoodjs/web@npm:2.1.0"
@@ -4583,6 +4622,16 @@ __metadata:
     react-dom:
       optional: true
   checksum: 45fbdbde3d32787ac5eadf7ea0d1ac31c0975e0ebb138468f6cacf5359f1e129ccbf0b50bb38cdcd8877291ccd42c52bb68fdd82d9b3e513558a15142811f8c4
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-coverage@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@storybook/addon-coverage@npm:0.0.2"
+  dependencies:
+    "@types/babel__core": ^7.1.19
+    babel-plugin-istanbul: ^6.1.1
+  checksum: 98715fb3c308cabcbda6a02976b287ed33f51c7b85338eb9ee9d5f01304ec9410f725f7f0edb5321be262196c9bd49320a0d84a3b20e2eef9398427f9896fe62
   languageName: node
   linkType: hard
 
@@ -6199,6 +6248,19 @@ __metadata:
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
   checksum: af7165b49a816eb6842fc0bd9834390665ed8216bf29096f051e648a9cd09d337c129261d5fcfcfa8e0e166b3facce85519ea5000bbb941671e83dd6cd6e0518
+  languageName: node
+  linkType: hard
+
+"@types/babel__core@npm:^7.1.19":
+  version: 7.1.19
+  resolution: "@types/babel__core@npm:7.1.19"
+  dependencies:
+    "@babel/parser": ^7.1.0
+    "@babel/types": ^7.0.0
+    "@types/babel__generator": "*"
+    "@types/babel__template": "*"
+    "@types/babel__traverse": "*"
+  checksum: d07442fee0a1331405c80efc06dd74fe815fc9ac1351de54c4eaf06fea9e516992a6f6a139361d78df5828b0a94977f33c977d9391b09949b959fd20d80f48d8
   languageName: node
   linkType: hard
 
@@ -25781,6 +25843,7 @@ __metadata:
     "@redwoodjs/forms": 2.1.0
     "@redwoodjs/router": 2.1.0
     "@redwoodjs/web": 2.1.0
+    "@storybook/addon-coverage": 0.0.2
     "@storybook/addon-interactions": 6.5.9
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.5.0

@@ -26,7 +26,7 @@ const ResetPasswordPage = ({ resetToken }) => {
   useEffect(() => {
     const validateToken = async () => {
       const response = await validateResetToken(resetToken)
-      if (response.error) {
+      if (response?.error) {
         setEnabled(false)
         toast.error(response.error)
       } else {

@@ -62,7 +62,8 @@ jobs:
         max_attempts: 3
         retry_on: error
         command: yarn install --immutable
-    - uses: nick-fields/retry@v2.7.0
+    - name: run jest and storybook tests
+      uses: nick-fields/retry@v2.7.0
       with:
         timeout_minutes: 3
         max_attempts: 3

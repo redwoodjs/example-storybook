@@ -1,3 +1,4 @@
+// https://storybook.js.org/addons/@storybook/addon-storyshots
 import path from 'path'
 
 import initStoryshots, {
@@ -5,6 +6,9 @@ import initStoryshots, {
 } from '@storybook/addon-storyshots'
 import { render } from '@testing-library/react'
 
+/**
+ * https://stackoverflow.com/a/55723009
+ */
 const reactTestingLibrarySerializer = {
   print: (val, serialize) => serialize(val.container.firstChild),
   test: (val) => val && Object.prototype.hasOwnProperty.call(val, 'container'),

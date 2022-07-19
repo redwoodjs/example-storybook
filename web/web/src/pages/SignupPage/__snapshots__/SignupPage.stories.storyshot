@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Generated/dbAuth/SignupPage Generated 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    class="sb-show-nopreview"
+  >
+    <div>
+      <main
+        class="rw-main w-96 mx-auto mt-12"
+      >
+        <div
+          style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+        />
+        <div
+          class="rw-scaffold rw-login-container"
+        >
+          <div
+            class="rw-segment"
+          >
+            <header
+              class="rw-segment-header"
+            >
+              <h2
+                class="rw-heading rw-heading-secondary"
+              >
+                Signup
+              </h2>
+            </header>
+            <div
+              class="rw-segment-main"
+            >
+              <div
+                class="rw-form-wrapper"
+              >
+                <form
+                  class="rw-form-wrapper"
+                >
+                  <label
+                    class="rw-label"
+                    for="username"
+                  >
+                    Username
+                  </label>
+                  <input
+                    class="rw-input"
+                    id="username"
+                    name="username"
+                    type="text"
+                  />
+                  <label
+                    class="rw-label"
+                    for="password"
+                  >
+                    Password
+                  </label>
+                  <input
+                    autocomplete="current-password"
+                    class="rw-input"
+                    id="password"
+                    name="password"
+                    type="password"
+                  />
+                  <div
+                    class="rw-button-group"
+                  >
+                    <button
+                      class="rw-button rw-button-blue"
+                      type="submit"
+                    >
+                      Sign Up
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rw-login-link mt-2 text-center"
+          >
+            <span>
+              Already have an account?
+            </span>
+             
+            <a
+              class="rw-link"
+              href="/login"
+            >
+              Log in!
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="rw-main w-96 mx-auto mt-12"
+    >
+      <div
+        style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+      />
+      <div
+        class="rw-scaffold rw-login-container"
+      >
+        <div
+          class="rw-segment"
+        >
+          <header
+            class="rw-segment-header"
+          >
+            <h2
+              class="rw-heading rw-heading-secondary"
+            >
+              Signup
+            </h2>
+          </header>
+          <div
+            class="rw-segment-main"
+          >
+            <div
+              class="rw-form-wrapper"
+            >
+              <form
+                class="rw-form-wrapper"
+              >
+                <label
+                  class="rw-label"
+                  for="username"
+                >
+                  Username
+                </label>
+                <input
+                  class="rw-input"
+                  id="username"
+                  name="username"
+                  type="text"
+                />
+                <label
+                  class="rw-label"
+                  for="password"
+                >
+                  Password
+                </label>
+                <input
+                  autocomplete="current-password"
+                  class="rw-input"
+                  id="password"
+                  name="password"
+                  type="password"
+                />
+                <div
+                  class="rw-button-group"
+                >
+                  <button
+                    class="rw-button rw-button-blue"
+                    type="submit"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rw-login-link mt-2 text-center"
+        >
+          <span>
+            Already have an account?
+          </span>
+           
+          <a
+            class="rw-link"
+            href="/login"
+          >
+            Log in!
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

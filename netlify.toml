@@ -5,6 +5,7 @@
   command = "yarn rw sb --build --no-open && yarn rw deploy netlify --no-prisma --no-data-migrate"
   publish = "web/dist"
   functions = "api/dist/functions"
+  environment = { NODE_ENV = "development" }
 
 [dev]
   # To use [Netlify Dev](https://www.netlify.com/products/dev/),

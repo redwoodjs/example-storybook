@@ -1,0 +1,22 @@
+diff --git a/dist/web/MockProviders.js b/dist/web/MockProviders.js
+index fcaa1bd8e40b00ac9311fbb60b07bfb3506e9b15..818d2951e333e3a1d5b6199ae56b5d416e489566 100644
+--- a/dist/web/MockProviders.js
++++ b/dist/web/MockProviders.js
+@@ -61,13 +61,14 @@ const mockAuthClient = {
+   logout: () => {},
+   signup: () => {},
+   getToken: () => {
+-    return 'token';
++    return "token";
+   },
+   getUserMetadata: () => {
+     return _mockRequests.mockedUserMeta.currentUser;
+   },
+-  client: 'Custom',
+-  type: 'custom'
++  validateResetToken: () => {},
++  client: "Custom",
++  type: "custom",
+ };
+ exports.mockAuthClient = mockAuthClient;
+ 

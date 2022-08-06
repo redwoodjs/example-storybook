@@ -56,14 +56,14 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - uses: nick-fields/retry@v2.8.0
+    - uses: nick-fields/retry@v2.8.1
       with:
         timeout_minutes: 2
         max_attempts: 3
         retry_on: error
         command: yarn install --immutable
     - name: run jest and storybook tests
-      uses: nick-fields/retry@v2.8.0
+      uses: nick-fields/retry@v2.8.1
       with:
         timeout_minutes: 3
         max_attempts: 3

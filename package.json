@@ -27,5 +27,5 @@
     "@storybook/manager-webpack5": "6.5.10",
     "@storybook/react": "6.5.10"
   },
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.2.3"
 }

@@ -1,19 +1,20 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
-generator client {
-  provider      = "prisma-client-js"
-  binaryTargets = "native"
-}
-
 model Post {
-  id        Int       @id @default(autoincrement())
-  title     String
-  body      String
-  comments  Comment[]
-  createdAt DateTime  @default(now())
+  id         Int          @id @default(autoincrement())
+  title      String
+  body       String
+  createdAt  DateTime     @default(now())
+  comments   Comment[]
+  TeamMember TeamMember[]
 }
 
 model Contact {
@@ -39,7 +40,20 @@ model Comment {
   id        Int      @id @default(autoincrement())
   name      String
   body      String
-  post      Post     @relation(fields: [postId], references: [id])
   postId    Int
   createdAt DateTime @default(now())
+  post      Post     @relation(fields: [postId], references: [id])
+}
+
+model TeamMember {
+  id          Int      @id @default(autoincrement())
+  name        String
+  role        String
+  imageUrl    String
+  twitterUrl  String
+  linkedinUrl String
+  body        String
+  createdAt   DateTime @default(now())
+  postId      Int
+  Post        Post     @relation(fields: [postId], references: [id])
 }

@@ -12,6 +12,7 @@ describe('HomePage', () => {
     }).not.toThrow()
   })
 
+  // TODO: figure out how to render things other than the loading state (RTL's rerender() did not seem to work)
   it('fragment matches snapshot', () => {
     const { asFragment } = render(<HomePage />)
     expect(asFragment()).toMatchSnapshot()

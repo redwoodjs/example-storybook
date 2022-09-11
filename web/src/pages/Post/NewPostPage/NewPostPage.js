@@ -1,4 +1,4 @@
-import NewPost from 'src/components/Post/NewPost'
+import NewPost from '../../../../../design-system/src/components/Post/NewPost'
 
 const NewPostPage = () => {
   return <NewPost />

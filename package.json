@@ -4,6 +4,7 @@
     "packages": [
       "api",
       "web",
+      "design-system",
       "packages/*"
     ]
   },

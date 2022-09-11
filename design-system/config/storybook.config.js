@@ -8,6 +8,8 @@ module.exports = {
   },
   addons: ['@storybook/addon-interactions'],
   stories: [
-    `${importStatementPath(`${rwjsPaths.base}/design-system/src`)}/**/*.stories.@(js|jsx|ts|tsx|mdx)`
+    `${importStatementPath(
+      rwjsPaths.web.src
+    )}/stories/Introduction.stories.mdx`,
   ],
 }

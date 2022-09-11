@@ -1,4 +1,4 @@
-import PostsCell from 'src/components/Post/PostsCell'
+import PostsCell from '../../../../../design-system/src/components/Post/PostsCell'
 
 const PostsPage = () => {
   return <PostsCell />

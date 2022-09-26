@@ -7667,9 +7667,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.7.1":
-  version: 0.7.1
-  resolution: "@storybook/test-runner@npm:0.7.1"
+"@storybook/test-runner@npm:0.7.2":
+  version: 0.7.2
+  resolution: "@storybook/test-runner@npm:0.7.2"
   dependencies:
     "@babel/core": ^7.18.13
     "@babel/generator": ^7.18.13
@@ -7698,7 +7698,7 @@ __metadata:
     ts-dedent: ^2.0.0
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: 262cc9638dfe81e445e806d6d9129fe75a77862a89b9891bfb5b2823d7f4dc2b3b51faad7a494671db2f49c26f64f215650c9ddd202a72638fd9a199552bf819
+  checksum: c35fe3136ca93a19c2408da4e7356479b0ecb723a2919c73544aa40eb90d994dd68d0d7e22c052c57ec9a0fd708df54c6501e300e9a93fe16b4be287f2cd2315
   languageName: node
   linkType: hard
 
@@ -28157,7 +28157,7 @@ __metadata:
     "@redwoodjs/web": 2.2.3
     "@storybook/addon-interactions": 6.5.10
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.7.1
+    "@storybook/test-runner": 0.7.2
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.8
     jest: 27.5.1

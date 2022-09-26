@@ -20352,6 +20352,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-watch-typeahead@npm:2.2.0":
+  version: 2.2.0
+  resolution: "jest-watch-typeahead@npm:2.2.0"
+  dependencies:
+    ansi-escapes: ^5.0.0
+    chalk: ^4.0.0
+    jest-regex-util: ^29.0.0
+    jest-watcher: ^29.0.0
+    slash: ^4.0.0
+    string-length: ^5.0.1
+    strip-ansi: ^7.0.1
+  peerDependencies:
+    jest: ^27.0.0 || ^28.0.0 || ^29.0.0
+  checksum: e3bff7ba953ba330e2c8ea4ad4c13f4f5a905c63d53cf8ecc014e8f22ed776f075342fe748409b585f7da50ad6e9f27118b4f04783956cf05d11f2b74c36a057
+  languageName: node
+  linkType: hard
+
 "jest-watcher@npm:^27.5.1":
   version: 27.5.1
   resolution: "jest-watcher@npm:27.5.1"
@@ -20399,7 +20416,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-watcher@npm:^29.0.3":
+"jest-watcher@npm:^29.0.0, jest-watcher@npm:^29.0.3":
   version: 29.0.3
   resolution: "jest-watcher@npm:29.0.3"
   dependencies:
@@ -29360,6 +29377,7 @@ __metadata:
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.12
     jest: 27.5.1
+    jest-watch-typeahead: 2.2.0
     postcss: 8.4.16
     postcss-loader: 7.0.1
     prop-types: 15.8.1

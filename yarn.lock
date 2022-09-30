@@ -23684,14 +23684,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.16":
-  version: 8.4.16
-  resolution: "postcss@npm:8.4.16"
+"postcss@npm:8.4.17":
+  version: 8.4.17
+  resolution: "postcss@npm:8.4.17"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 971e10b5492ffce3d30e39ffba1b4f135d0c751bf774493babe4cb89ddb4995aabb2ce290f48bbf1d9ae60016a6ad492535e614b22b15322f977c7744e800fa2
+  checksum: d6999ff9d97d69138a4ca890644543825792d925549366bde10b587e0fccfc0e8e2d85f627588d67238f0c24e3cf7940171017f62c74710ef36f253e4256b940
   languageName: node
   linkType: hard
 
@@ -28534,7 +28534,7 @@ __metadata:
     "@storybook/test-runner": 0.7.2
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.12
-    postcss: 8.4.16
+    postcss: 8.4.17
     postcss-loader: 7.0.1
     prop-types: 15.8.1
     react: 18.2.0

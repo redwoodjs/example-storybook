@@ -22,7 +22,11 @@ initStoryshots({
   ),
   test: (story) => {
     // FIXME Workaround for https://github.com/storybookjs/storybook/issues/16692
-    const fileName = path.resolve(__dirname, '../../', story.context.fileName)
+    const fileName = path.resolve(
+      __dirname,
+      '../../../',
+      story.context.fileName
+    )
     return multiSnapshotWithOptions({
       renderer: render,
       snapshotSerializers: [reactTestingLibrarySerializer],

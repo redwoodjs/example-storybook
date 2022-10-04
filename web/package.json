@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@storybook/addon-interactions": "6.5.12",
-    "@storybook/addon-storyshots": "6.5.9",
+    "@storybook/addon-storyshots": "6.5.12",
     "@storybook/jest": "0.0.10",
     "@storybook/test-runner": "0.7.2",
     "@storybook/testing-library": "0.0.13",

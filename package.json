@@ -22,6 +22,8 @@
     "seed": "yarn rw exec seed"
   },
   "resolutions": {
+    "jest": "29.0.3",
+    "jest-runner": "29.1.2",
     "@storybook/addon-a11y": "6.5.12",
     "@storybook/builder-webpack5": "6.5.12",
     "@storybook/manager-webpack5": "6.5.12",

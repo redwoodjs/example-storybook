@@ -56,8 +56,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - uses: nick-fields/retry@v2.8.1
     - run:  yarn dedupe --check
+    - uses: nick-fields/retry@v2.8.1
       with:
         timeout_minutes: 2
         max_attempts: 3

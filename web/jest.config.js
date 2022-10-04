@@ -15,6 +15,7 @@ const config = {
     '^.+\\.mdx?$': '@storybook/addon-docs/jest-transform-mdx', // https://github.com/storybookjs/storybook/issues/11376#issuecomment-757417250
   },
   setupFilesAfterEnv: [`<rootDir>/web/test/mocks.js`],
+  testEnvironment: 'jsdom',
 }
 
 module.exports = config

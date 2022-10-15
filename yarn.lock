@@ -21109,14 +21109,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.17, postcss@npm:^8.2.15, postcss@npm:^8.4.13, postcss@npm:^8.4.14, postcss@npm:^8.4.7":
-  version: 8.4.17
-  resolution: "postcss@npm:8.4.17"
+"postcss@npm:8.4.18":
+  version: 8.4.18
+  resolution: "postcss@npm:8.4.18"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: d6999ff9d97d69138a4ca890644543825792d925549366bde10b587e0fccfc0e8e2d85f627588d67238f0c24e3cf7940171017f62c74710ef36f253e4256b940
+  checksum: df38b43e0cd79b115305fb787f4586d376b38c515692ef7429785af84d00ebe86f2276b98071d3f62848daf8639ee4ef6057618b34c292196dc6af072eeede5e
   languageName: node
   linkType: hard
 
@@ -21127,6 +21127,17 @@ __metadata:
     picocolors: ^0.2.1
     source-map: ^0.6.1
   checksum: fd27ee808c0d02407582cccfad4729033e2b439d56cd45534fb39aaad308bb35a290f3b7db5f2394980e8756f9381b458a625618550808c5ff01a125f51efc53
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.2.15, postcss@npm:^8.4.13, postcss@npm:^8.4.14, postcss@npm:^8.4.7":
+  version: 8.4.17
+  resolution: "postcss@npm:8.4.17"
+  dependencies:
+    nanoid: ^3.3.4
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: d6999ff9d97d69138a4ca890644543825792d925549366bde10b587e0fccfc0e8e2d85f627588d67238f0c24e3cf7940171017f62c74710ef36f253e4256b940
   languageName: node
   linkType: hard
 
@@ -25748,7 +25759,7 @@ __metadata:
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.12
     identity-obj-proxy: 3.0.0
-    postcss: 8.4.17
+    postcss: 8.4.18
     postcss-loader: 7.0.1
     prop-types: 15.8.1
     react: 18.2.0

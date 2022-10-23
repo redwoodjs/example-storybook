@@ -2,5 +2,6 @@
   "automerge": true,
   "extends": [
     "config:base"
-  ]
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }

@@ -1,0 +1,64 @@
+diff --git a/config/storybook/main.js b/config/storybook/main.js
+index 8c46982c21f4dc6c3c0eeb480d3065c79826e786..530d34eeb163401a40ea8a1289d153d9c5cf3faa 100644
+--- a/config/storybook/main.js
++++ b/config/storybook/main.js
+@@ -138,29 +138,48 @@ const mergeUserStorybookConfig = (baseConfig) => {
+ 
+   const userStorybookConfig = require(redwoodPaths.web.storybookConfig)
+ 
+-  return mergeWithCustomize({
++  const { webpackFinal: baseWebpackFinal, ...baseConfigRest } = baseConfig;
++
++  const {
++    webpackFinal: userStorybookConfigWebpackFinal,
++    ...userStorybookConfigRest
++  } = userStorybookConfig;
++
++  const mergedConfig = mergeWithCustomize({
+     // https://github.com/survivejs/webpack-merge#mergewithcustomize-customizearray-customizeobject-configuration--configuration
+     customizeArray(baseConfig, userStorybookConfig, key) {
+-      if (key === 'addons' || key === 'stories') {
++      if (key === "addons" || key === "stories") {
+         // Allows userStorybookConfig to override baseConfig.
+         // Since this is an array, we spread the user config first (so that it comes first)
+         // Also, arrays don't dedupe the way objects do when spreading, so we do a conversion to and from a Set in order to remove duplicates.
+         let combinedArrays = [
+           ...new Set([...userStorybookConfig, ...baseConfig]),
+-        ]
++        ];
+         // To avoid `WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.`
+-        if (key === 'addons') {
+-          let key = '@storybook/addon-actions'
+-          combinedArrays = moveKeyToFrontOfArray(combinedArrays, key)
+-          key = '@storybook/addon-essentials'
+-          combinedArrays = moveKeyToFrontOfArray(combinedArrays, key)
++        if (key === "addons") {
++          let key = "@storybook/addon-actions";
++          combinedArrays = moveKeyToFrontOfArray(combinedArrays, key);
++          key = "@storybook/addon-essentials";
++          combinedArrays = moveKeyToFrontOfArray(combinedArrays, key);
+         }
+-        return combinedArrays
++        return combinedArrays;
+       }
+       // Fall back to default merging
+-      return undefined
++      return undefined;
+     },
+-  })(baseConfig, userStorybookConfig)
++  })(baseConfigRest, userStorybookConfigRest);
++
++  mergedConfig.webpackFinal = async (config, options) => {
++    let configFinal = await baseWebpackFinal(config, options);
++
++    if (userStorybookConfigWebpackFinal) {
++      configFinal = await userStorybookConfigWebpackFinal(configFinal, options);
++    }
++
++    return configFinal;
++  };
++
++  return mergedConfig;
+ }
+ 
+ /**

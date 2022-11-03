@@ -1,7 +1,5 @@
 # To learn about this file, please see https://www.gitpod.io/docs/references/gitpod-yml
 
-# NOTE: Use Gitod's PostgreSQL image once https://github.com/gitpod-io/workspace-images/issues/705 is fixed
-#image: gitpod/workspace-postgres
 image:
   file: .gitpod.Dockerfile
 

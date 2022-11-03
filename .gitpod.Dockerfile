@@ -1,15 +1,9 @@
-FROM gitpod/workspace-full:latest
+FROM gitpod/workspace-postgresql
 
 # Dazzle does not rebuild a layer until one of its lines are changed. Increase this counter to rebuild this layer.
 ENV TRIGGER_REBUILD=2
 ENV PGWORKSPACE="/workspace/.pgsql"
 ENV PGDATA="$PGWORKSPACE/data"
-
-# Install PostgreSQL
-RUN sudo install-packages postgresql-12 postgresql-contrib-12
-
-# Setup PostgreSQL server for user gitpod
-ENV PATH="/usr/lib/postgresql/12/bin:$PATH"
 
 SHELL ["/usr/bin/bash", "-c"]
 RUN PGDATA="${PGDATA//\/workspace/$HOME}" \

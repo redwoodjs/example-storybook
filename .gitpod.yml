@@ -1,7 +1,6 @@
 # To learn about this file, please see https://www.gitpod.io/docs/references/gitpod-yml
 
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-postgresql
 
 tasks:
   - init: |

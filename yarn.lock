@@ -4249,7 +4249,7 @@ __metadata:
 
 "@redwoodjs/testing@patch:@redwoodjs/testing@npm%3A3.3.0#./.yarn/patches/@redwoodjs-testing-npm-3.3.0-b9ba484f01.patch::locator=root-workspace-0b6124%40workspace%3A.":
   version: 3.3.0
-  resolution: "@redwoodjs/testing@patch:@redwoodjs/testing@npm%3A3.3.0#./.yarn/patches/@redwoodjs-testing-npm-3.3.0-b9ba484f01.patch::version=3.3.0&hash=7fc8ae&locator=root-workspace-0b6124%40workspace%3A."
+  resolution: "@redwoodjs/testing@patch:@redwoodjs/testing@npm%3A3.3.0#./.yarn/patches/@redwoodjs-testing-npm-3.3.0-b9ba484f01.patch::version=3.3.0&hash=ed2c1c&locator=root-workspace-0b6124%40workspace%3A."
   dependencies:
     "@babel/runtime-corejs3": 7.19.4
     "@redwoodjs/auth": 3.3.0
@@ -4284,7 +4284,7 @@ __metadata:
     msw: 0.47.4
     ts-toolbelt: 9.6.0
     whatwg-fetch: 3.6.2
-  checksum: df2eec47102adde4b0e9f1fdfa05d1d1700d470f1d8e4312dcacd91066288541838a696db77bb093a89742a8671b5a29344da692884f2d6539460dff4b1fdeab
+  checksum: 36fb02d96a161e253fe0758cffed5a840c31d7df96ef88d554ef2e649dac1a49b76da0a8e5c536f9ab7e946a1ea1821a698871125881aca8bb2a69bbfbe8f119
   languageName: node
   linkType: hard
 

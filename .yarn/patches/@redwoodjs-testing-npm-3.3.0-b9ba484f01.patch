@@ -1,5 +1,5 @@
 diff --git a/config/jest/api/jest.setup.js b/config/jest/api/jest.setup.js
-index aaf42b55addb02b17c8b0a4670f0016d58e3fa47..9f6968ccaedf3325946b41cb9eb5fe128bb89bbb 100644
+index aaf42b55addb02b17c8b0a4670f0016d58e3fa47..e8d7fdd5a5ec9e68f5fe63ac6bd1fd7d7142f8e9 100644
 --- a/config/jest/api/jest.setup.js
 +++ b/config/jest/api/jest.setup.js
 @@ -222,7 +222,11 @@ beforeAll(async () => {
@@ -8,10 +8,22 @@ index aaf42b55addb02b17c8b0a4670f0016d58e3fa47..9f6968ccaedf3325946b41cb9eb5fe12
    if (wasDbUsed()) {
 -    await configureTeardown()
 +    try {
-+      await configureTeardown();
++      await configureTeardown()
 +    } catch (e) {
-+      console.error(e);
++      console.error(e)
 +    }
    }
  })
  
+@@ -234,6 +238,10 @@ afterAll(async () => {
+ 
+ afterEach(async () => {
+   if (wasDbUsed()) {
+-    await teardown()
++    try {
++      await teardown()
++    } catch (e) {
++      console.error(e)
++    }
+   }
+ })

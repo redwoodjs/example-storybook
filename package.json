@@ -25,8 +25,7 @@
     "@storybook/addon-a11y": "6.5.13",
     "@storybook/builder-webpack5": "6.5.13",
     "@storybook/manager-webpack5": "6.5.13",
-    "@storybook/react": "6.5.13",
-    "@redwoodjs/testing@3.3.0": "patch:@redwoodjs/testing@npm%3A3.3.0#./.yarn/patches/@redwoodjs-testing-npm-3.3.0-b9ba484f01.patch"
+    "@storybook/react": "6.5.13"
   },
   "packageManager": "yarn@3.2.4"
 }

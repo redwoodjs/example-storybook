@@ -4247,47 +4247,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/testing@patch:@redwoodjs/testing@npm%3A3.3.0#./.yarn/patches/@redwoodjs-testing-npm-3.3.0-b9ba484f01.patch::locator=root-workspace-0b6124%40workspace%3A.":
-  version: 3.3.0
-  resolution: "@redwoodjs/testing@patch:@redwoodjs/testing@npm%3A3.3.0#./.yarn/patches/@redwoodjs-testing-npm-3.3.0-b9ba484f01.patch::version=3.3.0&hash=7fc8ae&locator=root-workspace-0b6124%40workspace%3A."
-  dependencies:
-    "@babel/runtime-corejs3": 7.19.4
-    "@redwoodjs/auth": 3.3.0
-    "@redwoodjs/graphql-server": 3.3.0
-    "@redwoodjs/internal": 3.3.0
-    "@redwoodjs/router": 3.3.0
-    "@redwoodjs/web": 3.3.0
-    "@storybook/addon-a11y": 6.5.12
-    "@storybook/addon-docs": 6.5.12
-    "@storybook/addon-essentials": 6.5.12
-    "@storybook/builder-webpack5": 6.5.12
-    "@storybook/manager-webpack5": 6.5.12
-    "@storybook/react": 6.5.12
-    "@testing-library/jest-dom": 5.16.5
-    "@testing-library/react": 12.1.5
-    "@testing-library/react-hooks": 8.0.1
-    "@testing-library/user-event": 14.4.3
-    "@types/aws-lambda": 8.10.107
-    "@types/babel-core": 6.25.7
-    "@types/jest": 29.1.2
-    "@types/node": 16.11.65
-    "@types/react": 17.0.50
-    "@types/react-dom": 17.0.17
-    "@types/webpack": 5.28.0
-    babel-jest: 29.1.2
-    babel-plugin-inline-react-svg: 2.0.1
-    core-js: 3.25.5
-    fast-glob: 3.2.12
-    jest: 29.1.2
-    jest-environment-jsdom: 29.1.2
-    jest-watch-typeahead: 2.2.0
-    msw: 0.47.4
-    ts-toolbelt: 9.6.0
-    whatwg-fetch: 3.6.2
-  checksum: df2eec47102adde4b0e9f1fdfa05d1d1700d470f1d8e4312dcacd91066288541838a696db77bb093a89742a8671b5a29344da692884f2d6539460dff4b1fdeab
-  languageName: node
-  linkType: hard
-
 "@redwoodjs/web@npm:3.3.0":
   version: 3.3.0
   resolution: "@redwoodjs/web@npm:3.3.0"

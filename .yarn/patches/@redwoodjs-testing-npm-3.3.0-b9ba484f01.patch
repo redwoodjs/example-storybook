@@ -1,0 +1,17 @@
+diff --git a/config/jest/api/jest.setup.js b/config/jest/api/jest.setup.js
+index aaf42b55addb02b17c8b0a4670f0016d58e3fa47..9f6968ccaedf3325946b41cb9eb5fe128bb89bbb 100644
+--- a/config/jest/api/jest.setup.js
++++ b/config/jest/api/jest.setup.js
+@@ -222,7 +222,11 @@ beforeAll(async () => {
+   // Disable perRequestContext for tests
+   process.env.DISABLE_CONTEXT_ISOLATION = '1'
+   if (wasDbUsed()) {
+-    await configureTeardown()
++    try {
++      await configureTeardown();
++    } catch (e) {
++      console.error(e);
++    }
+   }
+ })
+ 

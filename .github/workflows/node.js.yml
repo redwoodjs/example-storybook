@@ -46,7 +46,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [14.x, 16.x, 18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -63,6 +63,7 @@ jobs:
         max_attempts: 3
         retry_on: error
         command: yarn install --immutable
+    - run: yarn why prisma
     - name: run jest and storybook tests
       uses: nick-fields/retry@v2.8.2
       with:

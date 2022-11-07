@@ -63,6 +63,7 @@ jobs:
         max_attempts: 3
         retry_on: error
         command: yarn install --immutable
+    - run: yarn why prisma
     - name: run jest and storybook tests
       uses: nick-fields/retry@v2.8.2
       with:

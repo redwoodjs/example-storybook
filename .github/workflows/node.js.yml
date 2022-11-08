@@ -70,7 +70,7 @@ jobs:
         timeout_minutes: 3
         max_attempts: 3
         retry_on: error
-        command: yarn rw test && yarn workspace web test-storybook:ci
+        command: yarn rw test api && yarn rw test web && yarn workspace web test-storybook:ci
     - uses: actions/upload-artifact@v3.1.1
       with:
         name: coverage-for-${{github.sha}}-node-${{matrix.node-version}}

@@ -21123,14 +21123,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.18, postcss@npm:^8.2.15, postcss@npm:^8.4.17, postcss@npm:^8.4.18, postcss@npm:^8.4.7":
-  version: 8.4.18
-  resolution: "postcss@npm:8.4.18"
+"postcss@npm:8.4.19, postcss@npm:^8.2.15, postcss@npm:^8.4.17, postcss@npm:^8.4.18, postcss@npm:^8.4.7":
+  version: 8.4.19
+  resolution: "postcss@npm:8.4.19"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: df38b43e0cd79b115305fb787f4586d376b38c515692ef7429785af84d00ebe86f2276b98071d3f62848daf8639ee4ef6057618b34c292196dc6af072eeede5e
+  checksum: f33594fa0a2b629043deada34171744891054255baa49150d77f08f68edec1fa7eb9740e64c3a32e6f476c16e9e592af942fcf55f93051673dd208c0aee1d60b
   languageName: node
   linkType: hard
 
@@ -25767,7 +25767,7 @@ __metadata:
     autoprefixer: 10.4.13
     identity-obj-proxy: 3.0.0
     istanbul-instrumenter-loader: 3.0.1
-    postcss: 8.4.18
+    postcss: 8.4.19
     postcss-loader: 7.0.1
     prop-types: 15.8.1
     react: 18.2.0

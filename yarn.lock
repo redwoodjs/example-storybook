@@ -4464,14 +4464,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-coverage@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@storybook/addon-coverage@npm:0.0.5"
+"@storybook/addon-coverage@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@storybook/addon-coverage@npm:0.0.7"
   dependencies:
     "@types/babel__core": ^7.1.19
+    "@types/istanbul-lib-coverage": ^2.0.4
     babel-plugin-istanbul: ^6.1.1
     vite-plugin-istanbul: ^3.0.1
-  checksum: d896f3399afca6ce79ff4922def9faad91d477035540cf365694177928f5379d45d60b6aefcac81972b730af701f6dc3e35267e5567e6afa72971810a16fe9e2
+  checksum: 352932a9826dc93d049405a5a2198f9dcfca26c510ed0e965ddd4a8e5e2ba73e0029f6c5e59906718747f3d65e3fb84cae52181c96bcf1dd959813c118d8035a
   languageName: node
   linkType: hard
 
@@ -6513,7 +6514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1":
+"@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1, @types/istanbul-lib-coverage@npm:^2.0.4":
   version: 2.0.4
   resolution: "@types/istanbul-lib-coverage@npm:2.0.4"
   checksum: af5f6b64e788331ed3f7b2e2613cb6ca659c58b8500be94bbda8c995ad3da9216c006f1cfe6f66b321c39392b1bda18b16e63cef090a77d24a00b4bd5ba3b018
@@ -25748,7 +25749,7 @@ __metadata:
     "@redwoodjs/forms": 3.4.0
     "@redwoodjs/router": 3.4.0
     "@redwoodjs/web": 3.4.0
-    "@storybook/addon-coverage": 0.0.5
+    "@storybook/addon-coverage": 0.0.7
     "@storybook/addon-interactions": 6.5.13
     "@storybook/addon-storyshots": 6.5.13
     "@storybook/jest": 0.0.10

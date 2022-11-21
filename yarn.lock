@@ -1717,7 +1717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/template@npm:^7.12.7, @babel/template@npm:^7.18.10, @babel/template@npm:^7.3.3":
+"@babel/template@npm:^7.12.7, @babel/template@npm:^7.14.5, @babel/template@npm:^7.18.10, @babel/template@npm:^7.3.3":
   version: 7.18.10
   resolution: "@babel/template@npm:7.18.10"
   dependencies:
@@ -1746,14 +1746,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.1.6, @babel/types@npm:^7.12.11, @babel/types@npm:^7.12.7, @babel/types@npm:^7.16.8, @babel/types@npm:^7.18.10, @babel/types@npm:^7.18.13, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.19.3, @babel/types@npm:^7.19.4, @babel/types@npm:^7.2.0, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
-  version: 7.20.0
-  resolution: "@babel/types@npm:7.20.0"
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.1.6, @babel/types@npm:^7.12.11, @babel/types@npm:^7.12.7, @babel/types@npm:^7.14.8, @babel/types@npm:^7.16.8, @babel/types@npm:^7.18.10, @babel/types@npm:^7.18.13, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.19.3, @babel/types@npm:^7.19.4, @babel/types@npm:^7.2.0, @babel/types@npm:^7.3.0, @babel/types@npm:^7.3.3, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
+  version: 7.20.2
+  resolution: "@babel/types@npm:7.20.2"
   dependencies:
     "@babel/helper-string-parser": ^7.19.4
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
-  checksum: 8b9c960eb013142eaf6294d77b75e469b7e97461bd7ad939e625ed74865fbf5a1c20b7989ec3357d0f4ffd93dd79d6daead08c0c06647815d8bbe94dae445f5c
+  checksum: 62bb4665a9fcb149a8791f42c0509c23f6bd5da01c8319d4f49a16b5b49e2bfb97c5f7a99cf7935f94994da059feabaf90c29e3f380684f5328fc33fafb09984
   languageName: node
   linkType: hard
 
@@ -5952,15 +5952,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.9.0":
-  version: 0.9.0
-  resolution: "@storybook/test-runner@npm:0.9.0"
+"@storybook/test-runner@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@storybook/test-runner@npm:0.9.1"
   dependencies:
     "@babel/core": ^7.18.13
     "@babel/generator": ^7.18.13
     "@babel/preset-env": ^7.19.4
     "@babel/preset-react": ^7.18.6
     "@babel/preset-typescript": ^7.18.6
+    "@babel/template": ^7.14.5
+    "@babel/types": ^7.14.8
     "@storybook/core-common": ^6.5.0
     "@storybook/csf": 0.0.2--canary.4566f4d.1
     "@storybook/csf-tools": ^6.5.0
@@ -5968,8 +5970,9 @@ __metadata:
     can-bind-to-host: ^1.1.1
     commander: ^9.0.0
     expect-playwright: ^0.8.0
-    global: ^4.4.0
     jest: ^28.0.0
+    jest-circus: ^28.0.0
+    jest-environment-node: ^28.0.0
     jest-junit: ^14.0.0
     jest-playwright-preset: ^2.0.0
     jest-runner: ^28.0.0
@@ -5984,7 +5987,7 @@ __metadata:
     ts-dedent: ^2.0.0
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: 862af241b69db22f70f23595e90754ae28c09c5c9f021c1702ddd5a5d5712464ee42985b3865f19b1a15dcea9bafb3b474bd82df3f35f2b646d826015fd46289
+  checksum: c94ebd241845d48f6060abebeb2e51fd4fbf316eb3036049381167ad0e25d8053749ba3ff59e7d0370aa1b6669043f61d010a5f2cfc4e94129aaac9cbbcd6d5b
   languageName: node
   linkType: hard
 
@@ -16285,7 +16288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^28.1.3":
+"jest-circus@npm:^28.0.0, jest-circus@npm:^28.1.3":
   version: 28.1.3
   resolution: "jest-circus@npm:28.1.3"
   dependencies:
@@ -16565,7 +16568,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-node@npm:^28.1.3":
+"jest-environment-node@npm:^28.0.0, jest-environment-node@npm:^28.1.3":
   version: 28.1.3
   resolution: "jest-environment-node@npm:28.1.3"
   dependencies:
@@ -25749,7 +25752,7 @@ __metadata:
     "@storybook/addon-interactions": 6.5.13
     "@storybook/addon-storyshots": 6.5.13
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.9.0
+    "@storybook/test-runner": 0.9.1
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.13
     identity-obj-proxy: 3.0.0

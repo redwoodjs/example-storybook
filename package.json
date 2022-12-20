@@ -22,10 +22,10 @@
     "seed": "yarn rw exec seed"
   },
   "resolutions": {
-    "@storybook/addon-a11y": "6.5.14",
-    "@storybook/builder-webpack5": "6.5.14",
-    "@storybook/manager-webpack5": "6.5.14",
-    "@storybook/react": "6.5.14"
+    "@storybook/addon-a11y": "6.5.15",
+    "@storybook/builder-webpack5": "6.5.15",
+    "@storybook/manager-webpack5": "6.5.15",
+    "@storybook/react": "6.5.15"
   },
   "packageManager": "yarn@3.3.0"
 }

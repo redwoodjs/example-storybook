@@ -30,7 +30,7 @@ jobs:
       # Label used to access the service container
       postgres:
         # Docker Hub image
-        image: postgres@sha256:10d6e725f9b2f5531617d93164f4fc85b1739e04cab62cbfbfb81ccd866513b8
+        image: postgres@sha256:f30b0797b602b435e30b718430656191bcf99e4405b12576a11adef250985130
         # Provide the password for postgres
         env:
           POSTGRES_PASSWORD: postgres

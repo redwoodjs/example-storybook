@@ -6154,9 +6154,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.9.2":
-  version: 0.9.2
-  resolution: "@storybook/test-runner@npm:0.9.2"
+"@storybook/test-runner@npm:0.9.3":
+  version: 0.9.3
+  resolution: "@storybook/test-runner@npm:0.9.3"
   dependencies:
     "@babel/core": ^7.18.13
     "@babel/generator": ^7.18.13
@@ -6189,7 +6189,7 @@ __metadata:
     ts-dedent: ^2.0.0
   bin:
     test-storybook: bin/test-storybook.js
-  checksum: 2560a6e169dc5b769c94901eb6ff5b561893f6662a50ad1000eb1e51611554ef1e086eaf91f8ccd9377d09ec38dcc47f9c5a025bfbef4232534203457d7d4923
+  checksum: 6f6a9894a3113edfd3b1b44de4fed42581d5799440c2a85bc4a91bc7622e36b7f83090ca76ef414b47408809d8608b8baf170b4646cf2b8cb7e30bb2963eb0f7
   languageName: node
   linkType: hard
 
@@ -25937,7 +25937,7 @@ __metadata:
     "@storybook/addon-interactions": 6.5.15
     "@storybook/addon-storyshots": 6.5.15
     "@storybook/jest": 0.0.10
-    "@storybook/test-runner": 0.9.2
+    "@storybook/test-runner": 0.9.3
     "@storybook/testing-library": 0.0.13
     autoprefixer: 10.4.13
     identity-obj-proxy: 3.0.0

@@ -13,20 +13,20 @@
     ]
   },
   "dependencies": {
-    "@redwoodjs/auth": "4.0.1",
-    "@redwoodjs/forms": "4.0.1",
-    "@redwoodjs/router": "4.0.1",
-    "@redwoodjs/web": "4.0.1",
+    "@redwoodjs/auth": "4.1.0-canary.593",
+    "@redwoodjs/forms": "4.1.0-canary.593",
+    "@redwoodjs/router": "4.1.0-canary.593",
+    "@redwoodjs/web": "4.1.0-canary.593",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@storybook/addon-coverage": "0.0.7",
-    "@storybook/addon-interactions": "6.5.16",
-    "@storybook/addon-storyshots": "6.5.16",
+    "@storybook/addon-interactions": "6.5.15",
+    "@storybook/addon-storyshots": "6.5.15",
     "@storybook/jest": "0.0.10",
-    "@storybook/test-runner": "0.9.4",
+    "@storybook/test-runner": "0.9.3",
     "@storybook/testing-library": "0.0.13",
     "autoprefixer": "10.4.13",
     "identity-obj-proxy": "3.0.0",

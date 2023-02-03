@@ -22,3 +22,4 @@ web/public/storybook/
 #
 web/coverage/
 coverage/
+*.code-workspace

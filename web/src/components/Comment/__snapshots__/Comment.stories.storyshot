@@ -143,6 +143,12 @@ Object {
         >
           Cowabunga dudes. This is the first comment!
         </p>
+        <button
+          class="absolute bottom-2 right-2 bg-red-500 text-xs rounded text-white px-2 py-1"
+          type="button"
+        >
+          Delete
+        </button>
       </div>
     </div>
   </body>,
@@ -170,6 +176,12 @@ Object {
       >
         Cowabunga dudes. This is the first comment!
       </p>
+      <button
+        class="absolute bottom-2 right-2 bg-red-500 text-xs rounded text-white px-2 py-1"
+        type="button"
+      >
+        Delete
+      </button>
     </div>
   </div>,
   "debug": [Function],

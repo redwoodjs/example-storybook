@@ -67,7 +67,7 @@ jobs:
     - name: run jest and storybook tests
       uses: nick-fields/retry@v2.8.3
       with:
-        timeout_minutes: 3
+        timeout_minutes: 4
         max_attempts: 3
         retry_on: error
         command: yarn rw test api && yarn rw test web && yarn workspace web test-storybook:ci

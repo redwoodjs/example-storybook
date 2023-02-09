@@ -22,7 +22,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-coverage": "0.0.7",
+    "@storybook/addon-coverage": "0.0.8",
     "@storybook/addon-interactions": "6.5.16",
     "@storybook/addon-storyshots": "6.5.16",
     "@storybook/jest": "0.0.10",

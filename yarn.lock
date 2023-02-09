@@ -5191,15 +5191,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-coverage@npm:0.0.7":
-  version: 0.0.7
-  resolution: "@storybook/addon-coverage@npm:0.0.7"
+"@storybook/addon-coverage@npm:0.0.8":
+  version: 0.0.8
+  resolution: "@storybook/addon-coverage@npm:0.0.8"
   dependencies:
     "@types/babel__core": ^7.1.19
     "@types/istanbul-lib-coverage": ^2.0.4
     babel-plugin-istanbul: ^6.1.1
     vite-plugin-istanbul: ^3.0.1
-  checksum: 352932a9826dc93d049405a5a2198f9dcfca26c510ed0e965ddd4a8e5e2ba73e0029f6c5e59906718747f3d65e3fb84cae52181c96bcf1dd959813c118d8035a
+  checksum: 8cc3581a212c0f745f6e1c81b4dd00078d9dc72235d1f9ed27d52884ca310adb5e53283de5d439a62974b44ac2de66d6dca7a5628aac16ea39cac7595bccf431
   languageName: node
   linkType: hard
 
@@ -26191,7 +26191,7 @@ __metadata:
     "@redwoodjs/forms": 4.1.0
     "@redwoodjs/router": 4.1.0
     "@redwoodjs/web": 4.1.0
-    "@storybook/addon-coverage": 0.0.7
+    "@storybook/addon-coverage": 0.0.8
     "@storybook/addon-interactions": 6.5.16
     "@storybook/addon-storyshots": 6.5.16
     "@storybook/jest": 0.0.10

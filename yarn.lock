@@ -9118,12 +9118,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.13":
-  version: 10.4.13
-  resolution: "autoprefixer@npm:10.4.13"
+"autoprefixer@npm:10.4.14":
+  version: 10.4.14
+  resolution: "autoprefixer@npm:10.4.14"
   dependencies:
-    browserslist: ^4.21.4
-    caniuse-lite: ^1.0.30001426
+    browserslist: ^4.21.5
+    caniuse-lite: ^1.0.30001464
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -9132,7 +9132,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 55ef1feb555516f68c740b3a0050d89b663c4a806a52ff23b184869ddf511b561fa56d66b2adb533bfef3798aee87b31132474582968d84fa59da133f837a230
+  checksum: 66ce961b86acd2a46e05ac1eece8657b3d9edfd2ee3abddd6cfcb32755e6865409f57acf11fe05990d6f166afda85a603678435916267a09652265cfff7b5706
   languageName: node
   linkType: hard
 
@@ -10028,7 +10028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.0.0, browserslist@npm:^4.12.0, browserslist@npm:^4.14.5, browserslist@npm:^4.16.6, browserslist@npm:^4.20.3, browserslist@npm:^4.21.3, browserslist@npm:^4.21.4, browserslist@npm:^4.21.5":
+"browserslist@npm:^4.0.0, browserslist@npm:^4.12.0, browserslist@npm:^4.14.5, browserslist@npm:^4.16.6, browserslist@npm:^4.20.3, browserslist@npm:^4.21.3, browserslist@npm:^4.21.5":
   version: 4.21.5
   resolution: "browserslist@npm:4.21.5"
   dependencies:
@@ -10348,10 +10348,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001426, caniuse-lite@npm:^1.0.30001449":
-  version: 1.0.30001462
-  resolution: "caniuse-lite@npm:1.0.30001462"
-  checksum: 9353bcc1a7bb536ae6bb6be3c59ab636b13a5b382c2317dd8269916ef90753d5029a0c16ef57b624eab12f3140cbb115b1cd8c9126d1b8e1f7be74caa71ce584
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001449, caniuse-lite@npm:^1.0.30001464":
+  version: 1.0.30001464
+  resolution: "caniuse-lite@npm:1.0.30001464"
+  checksum: 82f711ecca1c22d66a0ffc166a818b75ea720c04a3d937c9ccf2bb3e3c10c9f347e95b66d4da4f5745e838e7f88ab6648441b0369a6298b747e6712f2ab5e006
   languageName: node
   linkType: hard
 
@@ -26373,7 +26373,7 @@ __metadata:
     "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.9.4
     "@storybook/testing-library": 0.0.13
-    autoprefixer: 10.4.13
+    autoprefixer: 10.4.14
     identity-obj-proxy: 3.0.0
     istanbul-instrumenter-loader: 3.0.1
     postcss: 8.4.21

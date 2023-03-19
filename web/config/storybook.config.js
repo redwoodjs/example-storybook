@@ -1,4 +1,4 @@
-const webpack = require('webpack')
+const { ProvidePlugin } = require('webpack')
 
 const { importStatementPath, getPaths } = require('@redwoodjs/internal')
 
@@ -37,7 +37,7 @@ module.exports = {
     // see: https://github.com/redwoodjs/redwood/issues/5534#issuecomment-1474103316
     configType === 'PRODUCTION' &&
       config.plugins.push(
-        new webpack.ProvidePlugin({
+        new ProvidePlugin({
           mockGraphQLQuery: ['@redwoodjs/testing/web', 'mockGraphQLQuery'],
           mockGraphQLMutation: [
             '@redwoodjs/testing/web',

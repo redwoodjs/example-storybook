@@ -5829,7 +5829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/client-logger@npm:6.5.16, @storybook/client-logger@npm:^6.4.0":
+"@storybook/client-logger@npm:6.5.16":
   version: 6.5.16
   resolution: "@storybook/client-logger@npm:6.5.16"
   dependencies:
@@ -5839,7 +5839,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/client-logger@npm:7.0.1":
+"@storybook/client-logger@npm:7.0.1, @storybook/client-logger@npm:^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
   version: 7.0.1
   resolution: "@storybook/client-logger@npm:7.0.1"
   dependencies:
@@ -6142,7 +6142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/instrumenter@npm:6.5.16, @storybook/instrumenter@npm:^6.4.0":
+"@storybook/instrumenter@npm:6.5.16":
   version: 6.5.16
   resolution: "@storybook/instrumenter@npm:6.5.16"
   dependencies:
@@ -6584,16 +6584,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:0.0.13":
-  version: 0.0.13
-  resolution: "@storybook/testing-library@npm:0.0.13"
+"@storybook/testing-library@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@storybook/testing-library@npm:0.1.0"
   dependencies:
-    "@storybook/client-logger": ^6.4.0
-    "@storybook/instrumenter": ^6.4.0
+    "@storybook/client-logger": ^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0
+    "@storybook/instrumenter": ^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0
     "@testing-library/dom": ^8.3.0
     "@testing-library/user-event": ^13.2.1
     ts-dedent: ^2.2.0
-  checksum: d5d5953e825aed706491b44089b1b500dead328b3bf7c364ac911f33346f2890a9c205e701391733114f53a948de0d8490eea1ec13c70611643b1bf3d7636dff
+  checksum: 182c5ed9f79b9108f79fb668b780530c85a1515830efb3b156cb4802ae9dd5aca357f28a472ebf9e513b1f3996335a21f7e1646cece1110bac9adf7f6b6a4770
   languageName: node
   linkType: hard
 
@@ -26483,7 +26483,7 @@ __metadata:
     "@storybook/addon-storyshots": 6.5.16
     "@storybook/jest": 0.1.0
     "@storybook/test-runner": 0.9.4
-    "@storybook/testing-library": 0.0.13
+    "@storybook/testing-library": 0.1.0
     autoprefixer: 10.4.14
     identity-obj-proxy: 3.0.0
     istanbul-instrumenter-loader: 3.0.1

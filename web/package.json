@@ -26,7 +26,7 @@
     "@storybook/addon-interactions": "6.5.16",
     "@storybook/addon-storyshots": "6.5.16",
     "@storybook/jest": "0.1.0",
-    "@storybook/test-runner": "0.9.4",
+    "@storybook/test-runner": "0.10.0",
     "@storybook/testing-library": "0.1.0",
     "autoprefixer": "10.4.14",
     "identity-obj-proxy": "3.0.0",

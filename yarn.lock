@@ -22037,9 +22037,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:7.2.3":
-  version: 7.2.3
-  resolution: "postcss-loader@npm:7.2.3"
+"postcss-loader@npm:7.2.4":
+  version: 7.2.4
+  resolution: "postcss-loader@npm:7.2.4"
   dependencies:
     cosmiconfig: ^8.1.3
     cosmiconfig-typescript-loader: ^4.3.0
@@ -22055,7 +22055,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 4ce6dfe0d04fbd70818729a14e6e55f88e31457eb57ecb33587668429098612f738d4c296d4c2ffd5aed73ff3e845a7aa01d3e3418cfe335a2ab68de7e1dddbb
+  checksum: c9d87fc5cd561508d18e746cdf29405438dba8c8ac83022245c3c05bec0841fe9cd4039ba84348fa02cb3b37c515415a0db40e5f2bfd0dd9afe7edb3ff3a21a7
   languageName: node
   linkType: hard
 
@@ -27117,7 +27117,7 @@ __metadata:
     identity-obj-proxy: 3.0.0
     istanbul-instrumenter-loader: 3.0.1
     postcss: 8.4.21
-    postcss-loader: 7.2.3
+    postcss-loader: 7.2.4
     prop-types: 15.8.1
     react: 18.2.0
     react-dom: 18.2.0

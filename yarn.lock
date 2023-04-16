@@ -20197,12 +20197,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.1, nanoid@npm:^3.3.4":
-  version: 3.3.4
-  resolution: "nanoid@npm:3.3.4"
+"nanoid@npm:^3.3.1, nanoid@npm:^3.3.6":
+  version: 3.3.6
+  resolution: "nanoid@npm:3.3.6"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: a0747d5c6021828fe8d38334e5afb05d3268d7d4b06024058ec894ccc47070e4e81d268a6b75488d2ff3485fa79a75c251d4b7c6f31051bb54bb662b6fd2a27d
+  checksum: 606b355960d0fcbe3d27924c4c52ef7d47d3b57208808ece73279420d91469b01ec1dce10fae512b6d4a8c5a5432b352b228336a8b2202a6ea68e67fa348e2ee
   languageName: node
   linkType: hard
 
@@ -22235,14 +22235,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.21, postcss@npm:^8.0.9, postcss@npm:^8.2.15, postcss@npm:^8.4.17, postcss@npm:^8.4.19":
-  version: 8.4.21
-  resolution: "postcss@npm:8.4.21"
+"postcss@npm:8.4.22, postcss@npm:^8.0.9, postcss@npm:^8.2.15, postcss@npm:^8.4.17, postcss@npm:^8.4.19":
+  version: 8.4.22
+  resolution: "postcss@npm:8.4.22"
   dependencies:
-    nanoid: ^3.3.4
+    nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: a26e7cc86a1807d624d9965914c26c20faa3f237184cbd69db537387f6a4f62df97347549144284d47e9e8e27e7c60e797cb3b92ad36cb2f4c3c9cb3b73f9758
+  checksum: e7ca3fb312306c9743d5d825494d0462ecc6d5c33c539d8ea6ecd3ac4fc98bf189a7d179665723eb3bf20f750424f9f8b40d86efa2ae5057e90100d691581dd3
   languageName: node
   linkType: hard
 
@@ -26943,7 +26943,7 @@ __metadata:
     autoprefixer: 10.4.14
     identity-obj-proxy: 3.0.0
     istanbul-instrumenter-loader: 3.0.1
-    postcss: 8.4.21
+    postcss: 8.4.22
     postcss-loader: 7.2.4
     prop-types: 15.8.1
     react: 18.2.0

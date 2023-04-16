@@ -31,7 +31,7 @@
     "autoprefixer": "10.4.14",
     "identity-obj-proxy": "3.0.0",
     "istanbul-instrumenter-loader": "3.0.1",
-    "postcss": "8.4.21",
+    "postcss": "8.4.22",
     "postcss-loader": "7.2.4",
     "tailwindcss": "3.3.1"
   },

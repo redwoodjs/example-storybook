@@ -6386,7 +6386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/instrumenter@npm:6.5.16":
+"@storybook/instrumenter@npm:6.5.16, @storybook/instrumenter@npm:^6.4.0":
   version: 6.5.16
   resolution: "@storybook/instrumenter@npm:6.5.16"
   dependencies:
@@ -6412,15 +6412,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/jest@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@storybook/jest@npm:0.1.0"
+"@storybook/jest@npm:0.0.10":
+  version: 0.0.10
+  resolution: "@storybook/jest@npm:0.0.10"
   dependencies:
     "@storybook/expect": storybook-jest
-    "@storybook/instrumenter": ^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0
+    "@storybook/instrumenter": ^6.4.0
     "@testing-library/jest-dom": ^5.16.2
     jest-mock: ^27.3.0
-  checksum: 0385f189d283468b980512d972b6223cf4848b304746f750ac501fb9d2eb7d99ad911d26f2fb072e639de0084b197de729f652a327caff8705c9d3d8c7043943
+  checksum: f27be53e528adc39718654d6144328ff853bae22fd183a20ed03262ed39ce89fc57715dab91bad62ae663c36899bbb4d9dd2fbc9d5249f1f7cde52b11172e672
   languageName: node
   linkType: hard
 
@@ -26937,7 +26937,7 @@ __metadata:
     "@storybook/addon-coverage": 0.0.8
     "@storybook/addon-interactions": 6.5.16
     "@storybook/addon-storyshots": 6.5.16
-    "@storybook/jest": 0.1.0
+    "@storybook/jest": 0.0.10
     "@storybook/test-runner": 0.10.0
     "@storybook/testing-library": 0.1.0
     autoprefixer: 10.4.14

@@ -28,8 +28,8 @@ const order = [
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
-//  backgrounds: { disable: true },
-//  layout: 'fullscreen',
+  //  backgrounds: { disable: true },
+  //  layout: 'fullscreen',
   docs: { theme },
   options: { storySort: { order } },
 }

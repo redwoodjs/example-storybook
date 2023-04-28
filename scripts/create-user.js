@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-import CryptoJS from 'crypto-js'
 import { db } from 'api/src/lib/db'
+import CryptoJS from 'crypto-js'
 
 const user = 'moderator@moderator.com'
 const password = 'password'

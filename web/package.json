@@ -38,5 +38,11 @@
   "scripts": {
     "test-storybook": "test-storybook --coverage --url http://localhost:7910/ --config-dir \"${PWD}/../node_modules/@redwoodjs/testing/config/storybook/\"",
     "test-storybook:ci": "npx concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"yarn rw sb\" \"npx wait-on tcp:7910 && yarn test-storybook\""
+  },
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    }
   }
 }

@@ -24,6 +24,11 @@ functions = "api/dist/functions"
   status = 200
 
 [[redirects]]
+  from = "/mockServiceWorker.js"
+  to = "/mockServiceWorker.js"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/200.html"
   status = 200

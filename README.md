@@ -4,6 +4,12 @@
 
 ---
 
+_**🚧this project is currently archived and in maintenance mode🚧**_
+if you'd like to help out, please checkout
+https://github.com/redwoodjs/redwood/issues/5269 and see if any of the issues there interest you.
+
+---
+
 <span><img src="https://avatars2.githubusercontent.com/u/45050444?v=4" width="10" />
 🌲✨📖 _A forest full of stories_ 📖✨🌲<img src="https://avatars2.githubusercontent.com/u/45050444?v=4" width="10" /></span>
 ## Description
